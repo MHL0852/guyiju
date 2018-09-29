@@ -1,45 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>固宜居</title>
+
+  <link rel="stylesheet" href="./css/service.css">
+  <script src="js/jquery-1.11.3.min.js"></script>
 </head>
 <body>
 <div class="main">
-  <div class="header"></div>
+  <div class="header">
+    <div class="logo">
+      <img src="./image/logo.png" alt="">
+      <span class="slogan"></span>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="搜索关键字">
+      <span>
+        搜索
+      </span>
+    </div>
+    <div class="tel">
+      <p>卓越品质</p>
+      <p><span class="icon"></span>400-666-6666</p>
+    </div>
+
+    <div class="nav">
+      <p class="line"></p>
+      <ul  id="nav_list">
+        <li>首页</li>
+        <li>固宜居美缝</li>
+        <li>品牌故事</li>
+        <li>精英团队</li>
+        <li>服务专区</li>
+        <li>新闻资讯</li>
+        <li>关于我们</li>
+        <li class="active">联系我们</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="container">
     <div class="title">
-      <span class="cn">
+      <p class="cn">
         服务专区
-      </span>
-      <span class="en">
+      </p>
+      <p class="en">
         Service
-      </span>
+      </p>
 
-      <span class="btns">
-        <button class="all">全部</button>
+      <span class="btn">
+        <button class="all active">全部</button>
         <button class="new">最新</button>
       </span>
     </div>
 
-    <div class="qaList">
-      <ul>
-        <li>
 
-        </li>
-      </ul>
-    </div>
+    <ul class="qaList">
 
-  </div>
-
-  <div class="chooses">
-    <ul>
-      <li>
-        <span>1</span>
-      </li>
     </ul>
+    <ul class="focus"></ul>
+
+
+
   </div>
 </div>
+<script src="Date/Data.js"></script>
+<script src="js/header.js"></script>
+<script src="js/service.js"></script>
 </body>
 </html>

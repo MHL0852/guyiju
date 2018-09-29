@@ -1,0 +1,224 @@
+@import "reset.min.css";
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 1440px;
+  margin: 0 auto;
+}
+.main .header {
+  width: 100%;
+  height: 225px;
+  position: relative;
+}
+.main .header div {
+  line-height: normal;
+  display: inline-block;
+}
+.main .header .logo {
+  position: absolute;
+  left: 15px;
+  top: 53px;
+}
+.main .header .logo .slogan {
+  width: 255px;
+  height: 31px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  display: inline-block;
+  background-image: url("../image/slogan.png");
+}
+.main .header .logo img {
+  height: 100px;
+  width: 105px;
+}
+.main .header .search {
+  color: #fff;
+  width: 475px;
+  height: 60px;
+  line-height: 56px;
+  margin-left: 620px;
+  background: #468f3e;
+  margin-top: 73px;
+  border: 2px solid #468f3e;
+}
+.main .header .search span {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  font-size: 16px;
+}
+.main .header .search input {
+  height: 57px;
+  width: 395px;
+  border: none;
+  font-size: 16px;
+  margin-left: 2px;
+  text-indent: 10px;
+}
+.main .header .tel {
+  margin-right: 50px;
+  margin-top: 70px;
+  text-align: right;
+  font-size: 20px;
+  float: right;
+  width: 240px;
+  height: 70px;
+  color: #555;
+}
+.main .header .tel p {
+  width: 100%;
+  height: 35px;
+  margin: 0;
+  line-height: 35px;
+}
+.main .header .tel p .icon {
+  width: 30px;
+  height: 18px;
+  opacity: 0.3;
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  border-right: 2px solid #555;
+  margin-right: 10px;
+  background-image: url("../image/phone.png");
+}
+.main .header .nav {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+.main .header .nav .line {
+  height: 1px;
+  width: 5000px;
+  margin-left: -2000px;
+  opacity: 0.3;
+  background: #333;
+}
+.main .header .nav ul li {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 135px;
+  height: 50px;
+  float: left;
+  cursor: pointer;
+}
+.main .header .nav ul li:hover {
+  color: #468f3e;
+  line-height: 45px;
+  border-top: 3px solid #468f3e;
+}
+.main .header .nav ul li.active {
+  color: #468f3e;
+  line-height: 45px;
+  border-top: 3px solid #468f3e;
+}
+.container .banner {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.container .banner img {
+  width: 1920px;
+  height: 500px;
+  margin: 0 0 0 -240px;
+}
+.container .title {
+  margin: 100px 0;
+}
+.container .title p {
+  opacity: 0.9;
+  color: #333;
+  font-size: 32px;
+  display: inline-block;
+}
+.container .title p.en {
+  font-size: 24px;
+  padding-left: 20px;
+  opacity: 0.5;
+}
+.container .describe {
+  width: 1440px;
+}
+.container .describe .content {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.container .describe .content .company {
+  display: inline-block;
+}
+.container .describe .content .company h3 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #555;
+  opacity: 0.8;
+}
+.container .describe .content .company ul li {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 50px;
+}
+.container .describe .content .form {
+  display: inline-block;
+  margin-right: 10px;
+  float: right;
+}
+.container .describe .content .form ul {
+  width: 800px;
+}
+.container .describe .content .form ul li {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(55, 55, 55, 0.2);
+}
+.container .describe .content .form ul li input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 18px;
+  text-indent: 1.5em;
+}
+.container .describe .content .form ul li input :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+.container .describe .content .form ul li input ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+.container .describe .content .form ul li input :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #ccc;
+}
+.container .describe .content .form ul li input ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #ccc;
+}
+.container .describe .content .form ul li:last-child {
+  color: #fff;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  background: #57bc4c;
+  border: 1px solid #57bc4c;
+}
+.container .describe .content .form ul li:nth-child(4) {
+  height: 145px;
+}
+.container .describe .map {
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=relation.css.map */

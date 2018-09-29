@@ -1,0 +1,130 @@
+@import "./reset.min.css";
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 1440px;
+  margin: 0 auto;
+  .header {
+    width: 100%;
+    height: 225px;
+    position: relative;
+    div {
+      line-height: normal;
+      display: inline-block;
+    }
+    .logo {
+      position: absolute;
+      left: 15px;
+      top: 53px;
+
+      .slogan {
+        width: 255px;
+        height: 31px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        display: inline-block;
+        background-image: url("../image/slogan.png");
+      }
+      img {
+        height: 100px;
+        width: 105px;
+      }
+    }
+    .search{
+      color:#fff;
+      width: 475px;
+      height: 60px;
+      line-height: 56px;
+      margin-left: 620px;
+      background: #468f3e;
+      margin-top: 73px;
+      border: 2px solid #468f3e;
+      span{
+        display: inline-block;
+        width: 70px;
+        text-align: center;
+        font-size: 16px;
+      }
+      input{
+        height: 57px;
+        width: 395px;
+        border: none;
+        font-size: 16px;
+        margin-left: 2px;
+        text-indent: 10px;
+      }
+    }
+    .tel{
+      margin-right: 50px;
+      margin-top: 70px;
+      text-align: right;
+      font-size: 20px;
+      float: right;
+      width: 240px;
+      height: 70px;
+      color: #555;
+      p{
+        width: 100%;
+        height: 35px;
+        margin: 0;
+        line-height: 35px;
+        .icon{
+          width: 30px;
+          height: 18px;
+          opacity: 0.3;
+          display: inline-block;
+          background-size: 18px 18px;
+          background-repeat: no-repeat;
+          border-right: 2px solid #555;
+          margin-right: 10px;
+          background-image: url("../image/phone.png");
+
+        }
+      }
+    }
+    .nav{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: block;
+      .line{
+        height: 1px;
+        width: 5000px;
+        margin-left: -2000px;
+        opacity: 0.3;
+        background: #333;
+      }
+      ul{
+        li{
+          box-sizing: border-box;
+          display: inline-block;
+          text-align: center;
+          line-height: 50px;
+          font-size: 22px;
+          color: rgba(0,0,0,0.6);
+          width: 135px;
+          height: 50px;
+          float: left;
+          cursor: pointer;
+          &:hover{
+            color:#468f3e;
+            line-height: 45px;
+            border-top: 3px solid #468f3e;
+          }
+          &.active{
+            color:#468f3e;
+            line-height: 45px;
+            border-top: 3px solid #468f3e;
+          }
+        }
+      }
+    }
+  }
+}

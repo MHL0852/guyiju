@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>固宜居</title>
-  <link rel="stylesheet" href="./css/reset.min.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <script src="js/animate.min.js"></script>
+  <script src="Date/Data.js"></script>
+  <script src="js/utils.min.js"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
+
 </head>
 <body>
 <div class="main">
   <div class="header">
     <div class="logo">
-
+      <img src="./image/logo.png" alt="">
+      <span class="slogan"></span>
     </div>
     <div class="search">
-      <input type="text">
+      <input type="text" placeholder="搜索关键字">
       <span>
         搜索
       </span>
@@ -23,98 +29,208 @@
     </div>
 
     <div class="nav">
-      <ul>
-        <li></li>
+      <p class="line"></p>
+      <ul  id="nav_list">
+        <li>首页</li>
+        <li>固宜居美缝</li>
+        <li>品牌故事</li>
+        <li>精英团队</li>
+        <li>服务专区</li>
+        <li>新闻资讯</li>
+        <li>关于我们</li>
+        <li class="active">联系我们</li>
       </ul>
     </div>
   </div>
 
   <div class="banner">
-    <ul class="wrapper clearfix">
-      <li></li>
-    </ul>
-    <ul class="focus clearfix">
-      <li></li>
-    </ul>
-  </div>
+    <div class="container" id="container">
+      <ul class="wrapper clear">
 
-  <div class="container">
-    <ul>
-      <li>
-        <h2><img src="" alt="">明星产品</h2>
-        <h3>
-          <img src="" alt="">
-          <img src="" alt="">
-          二级标题
-        </h3>
-        <div class="starContainer">
-          <ul>
-            <li>
-              <img src="" alt="">
-              <p>固宜居生态美瓷美缝</p>
-            </li>
-            <li>
-              <img src="" alt="">
-              <p>固宜居生态美瓷美缝</p>
-            </li>
-            <li>
-              <img src="" alt="">
-              <p>固宜居生态美瓷美缝</p>
-            </li>
-          </ul>
-        </div>
+      </ul>
+      <ul class="focus clear">
 
-      </li>
-
-    </ul>
-  </div>
-
-  <div class="footer">
-    <div class="contact">
-      <h3>联系我们</h3>
-      <h5>固宜居建材有限公司</h5>
-      <p>
-        地址：江苏省无锡市惠山区钱桥
-      </p>
-      <p>
-        电话：0510-85559689
-      </p>
-      <p>
-        网址：www.lldmj.com
-      </p>
-      <p>
-        邮箱：qjjskjdj@qq.com
-      </p>
-      <p>
-        <img src="" alt="" class="pol">
-        鲁公网安备 37010302000272号
-      </p>
-    </div>
-
-    <div class="form">
-      <ul>
-        <li>
-          姓名
-          <input type="text">
-        </li>
-        <li>
-          电话
-          <input type="text">
-        </li>
-        <li>
-          邮箱
-          <input type="text">
-        </li>
-        <li>
-          内容
-          <input type="text">
-        </li>
-        <button>
-          提交
-        </button>
       </ul>
     </div>
   </div>
+
+  <div class="container">
+    <div class="star">
+      <div class="title">
+        <div class="mainTitle">
+          <p class="icon"></p>
+          <p class="mainTitleText"></p>
+        </div>
+        <div class="subtitle clear">
+          <img src="./image/home_title_left1.png.png" alt="" class="left">
+          <img src="./image/home_title_right1.png" alt="" class="right">
+          <span class="default"></span>
+          <span class="bold"></span>
+        </div>
+      </div>
+
+      <div class="content" id="star_content">
+        <ul></ul>
+      </div>
+    </div>
+
+
+    <div class="story">
+      <div class="title">
+        <div class="mainTitle">
+          <p class="icon"></p>
+          <p class="mainTitleText">
+            品牌故事
+          </p>
+        </div>
+        <div class="subtitle clear">
+          <img src="./image/home_title_left.png.png" alt="" class="left">
+
+          <span class="default">固宜居美缝剂，”安全环保，为健康而生”</span>
+          <span class="bold"></span>
+          <img src="./image/home_title_right.png" alt="" class="right">
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="text clear">
+          <div class="img"></div>
+          <div class="storyText">
+            <p class="title1"></p>
+            <p class="text"></p>
+            <p class="more">
+              了解故事
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="support">
+      <div class="title">
+        <div class="mainTitle">
+          <p class="icon"></p>
+          <p class="mainTitleText"></p>
+        </div>
+        <div class="subtitle clear">
+          <img src="./image/home_title_left1.png.png" alt="" class="left">
+          <span class="default"></span>
+          <span class="bold"></span>
+          <img src="./image/home_title_right1.png" alt="" class="right">
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="technology">
+          <p class="title1"></p>
+          <div class="text"></div>
+          <p class="more">
+            了解技术
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="title">
+        <div class="mainTitle">
+          <p class="icon"></p>
+          <p class="mainTitleText"></p>
+        </div>
+        <div class="subtitle clear">
+          <img src="./image/home_title_left1.png.png" alt="" class="left">
+
+          <span class="default"></span>
+          <span class="bold"></span>
+          <img src="./image/home_title_right1.png" alt="" class="right">
+        </div>
+      </div>
+
+      <div class="content">
+        <p class="title1"></p>
+        <div class="text"></div>
+        <div class="more">
+          了解服务
+        </div>
+      </div>
+    </div>
+
+    <div class="news">
+      <div class="title">
+        <div class="mainTitle">
+          <p class="icon"></p>
+          <p class="mainTitleText"></p>
+        </div>
+        <div class="subtitle clear">
+          <img src="./image/home_title_left1.png.png" alt="" class="left">
+
+          <span class="default"></span>
+          <span class="bold"></span>
+          <img src="./image/home_title_right1.png" alt="" class="right">
+        </div>
+      </div>
+
+      <div class="content">
+        <ul></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footerContainer clear">
+      <div class="contact">
+        <h3>联系我们</h3>
+        <h5>固宜居建材有限公司</h5>
+        <p>
+          地址：江苏省无锡市惠山区钱桥
+        </p>
+        <p>
+          电话：0510-85559689
+        </p>
+        <p>
+          网址：www.lldmj.com
+        </p>
+        <p>
+          邮箱：qjjskjdj@qq.com
+        </p>
+        <p class="clear">
+          <img src="./image/police.png" alt="" class="pol">
+          鲁公网安备 37010302000272号
+        </p>
+      </div>
+
+      <div class="form">
+        <ul>
+          <li>
+
+            <input type="text" placeholder="姓名">
+          </li>
+          <li>
+
+            <input type="text" placeholder="电话">
+          </li>
+          <li>
+
+            <input type="text" placeholder="邮箱">
+          </li>
+          <li>
+
+            <input type="text" placeholder="内容">
+          </li>
+          <li>
+            <p class="btn">
+              提交
+            </p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
+
+<script src="js/header.js"></script>
+<script src="js/banner.js"></script>
+<script src="js/home.js"></script>
 </body>
 </html>

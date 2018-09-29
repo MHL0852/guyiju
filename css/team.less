@@ -1,0 +1,124 @@
+@import "./header";
+
+.container{
+  margin-bottom: 80px;
+  .banner{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+    img{
+      top: 0;
+      width: 1920px;
+      height: 350px;
+      left: 50%;
+      position: absolute;
+      margin: 0 0 0 -960px;
+    }
+  }
+  .title {
+    margin: 100px 0;
+    p {
+      opacity: 0.9;
+      color: #333;
+      font-size: 32px;
+      display: inline-block;
+      &.en {
+        font-size: 24px;
+        padding-left: 20px;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .describe {
+    display: none;
+    &.active{
+      display: block;
+    }
+    ul{
+      margin-bottom: 100px;
+      li {
+        width: 450px;
+        margin: 0 13px;
+        display: inline-block;
+        .img{
+          width: 450px;
+          height: 450px;
+          overflow: hidden;
+          img{
+            width: 700px;
+            margin-left: -100px;
+          }
+        }
+
+        .title{
+          height: 30px;
+          margin: 20px 0;
+          font-size: 20px;
+          padding: 0 30px;
+          line-height: 30px;
+          color:rgba(0,0,0,0.8);
+        }
+
+        .text{
+          height: 80px;
+          font-size: 16px;
+          overflow:hidden;
+          padding: 0 30px;
+          line-height: 40px;
+          color:rgba(55,55,55,0.4);
+          text-overflow:ellipsis;
+        }
+        .examine{
+          padding: 0 30px;
+          margin-bottom: 20px;
+          button{
+            width: 80px;
+            height: 40px;
+            float: right;
+            background: #fff;
+            border-radius: 20px;
+            color: rgba(0,0,0,0.8);
+            border: 1px solid rgba(0,0,0,0.1);
+          }
+        }
+
+        &:hover{
+          background: #57bc4c;
+          .title{
+            color:#fff;
+          }
+          .text{
+            color:#fff;
+          }
+          .examine{
+            background: #57bc4c;
+            button{
+              color:#57bc4c;
+              border-top: 1px solid #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .focus{
+    text-align: center;
+    li{
+      width: 55px;
+      height: 55px;
+      font-size: 20px;
+      line-height: 55px;
+      margin-right: 20px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      color: rgba(55,55,55,0.6);
+      &.active{
+        color: #fff;
+        background: #57bc4c;
+        border: 1px solid #57bc4c;
+      }
+    }
+  }
+}

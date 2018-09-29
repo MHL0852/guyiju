@@ -2,7 +2,14 @@
   "_tip":"这是轮播图的数据，url表示图片的路径",
   "banner":[
     {
-      "url":""
+      "id":1,
+      "url":"../image/hone_banner1.png",
+      "link": "http://www.baidu.com/"
+    },
+    {
+      "id":2,
+      "url":"../image/hone_banner2.png",
+      "link": "http://www.baidu.com/"
     }
   ],
   "_tip1":"以下是正文的数据，titleUrl是标题前面图标的路径，subTitle是副标题，分为普通颜色和着重色，content是具体的内容",

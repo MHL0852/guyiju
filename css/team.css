@@ -1,0 +1,244 @@
+@import "reset.min.css";
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 1440px;
+  margin: 0 auto;
+}
+.main .header {
+  width: 100%;
+  height: 225px;
+  position: relative;
+}
+.main .header div {
+  line-height: normal;
+  display: inline-block;
+}
+.main .header .logo {
+  position: absolute;
+  left: 15px;
+  top: 53px;
+}
+.main .header .logo .slogan {
+  width: 255px;
+  height: 31px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  display: inline-block;
+  background-image: url("../image/slogan.png");
+}
+.main .header .logo img {
+  height: 100px;
+  width: 105px;
+}
+.main .header .search {
+  color: #fff;
+  width: 475px;
+  height: 60px;
+  line-height: 56px;
+  margin-left: 620px;
+  background: #468f3e;
+  margin-top: 73px;
+  border: 2px solid #468f3e;
+}
+.main .header .search span {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  font-size: 16px;
+}
+.main .header .search input {
+  height: 57px;
+  width: 395px;
+  border: none;
+  font-size: 16px;
+  margin-left: 2px;
+  text-indent: 10px;
+}
+.main .header .tel {
+  margin-right: 50px;
+  margin-top: 70px;
+  text-align: right;
+  font-size: 20px;
+  float: right;
+  width: 240px;
+  height: 70px;
+  color: #555;
+}
+.main .header .tel p {
+  width: 100%;
+  height: 35px;
+  margin: 0;
+  line-height: 35px;
+}
+.main .header .tel p .icon {
+  width: 30px;
+  height: 18px;
+  opacity: 0.3;
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  border-right: 2px solid #555;
+  margin-right: 10px;
+  background-image: url("../image/phone.png");
+}
+.main .header .nav {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+.main .header .nav .line {
+  height: 1px;
+  width: 5000px;
+  margin-left: -2000px;
+  opacity: 0.3;
+  background: #333;
+}
+.main .header .nav ul li {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 135px;
+  height: 50px;
+  float: left;
+  cursor: pointer;
+}
+.main .header .nav ul li:hover {
+  color: #468f3e;
+  line-height: 45px;
+  border-top: 3px solid #468f3e;
+}
+.main .header .nav ul li.active {
+  color: #468f3e;
+  line-height: 45px;
+  border-top: 3px solid #468f3e;
+}
+.container {
+  margin-bottom: 80px;
+}
+.container .banner {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+}
+.container .banner img {
+  top: 0;
+  width: 1920px;
+  height: 350px;
+  left: 50%;
+  position: absolute;
+  margin: 0 0 0 -960px;
+}
+.container .title {
+  margin: 100px 0;
+}
+.container .title p {
+  opacity: 0.9;
+  color: #333;
+  font-size: 32px;
+  display: inline-block;
+}
+.container .title p.en {
+  font-size: 24px;
+  padding-left: 20px;
+  opacity: 0.5;
+}
+.container .describe {
+  display: none;
+}
+.container .describe.active {
+  display: block;
+}
+.container .describe ul {
+  margin-bottom: 100px;
+}
+.container .describe ul li {
+  width: 450px;
+  margin: 0 13px;
+  display: inline-block;
+}
+.container .describe ul li .img {
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+}
+.container .describe ul li .img img {
+  width: 700px;
+  margin-left: -100px;
+}
+.container .describe ul li .title {
+  height: 30px;
+  margin: 20px 0;
+  font-size: 20px;
+  padding: 0 30px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.container .describe ul li .text {
+  height: 80px;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 0 30px;
+  line-height: 40px;
+  color: rgba(55, 55, 55, 0.4);
+  text-overflow: ellipsis;
+}
+.container .describe ul li .examine {
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+.container .describe ul li .examine button {
+  width: 80px;
+  height: 40px;
+  float: right;
+  background: #fff;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.container .describe ul li:hover {
+  background: #57bc4c;
+}
+.container .describe ul li:hover .title {
+  color: #fff;
+}
+.container .describe ul li:hover .text {
+  color: #fff;
+}
+.container .describe ul li:hover .examine {
+  background: #57bc4c;
+}
+.container .describe ul li:hover .examine button {
+  color: #57bc4c;
+  border-top: 1px solid #fff;
+}
+.container .focus {
+  text-align: center;
+}
+.container .focus li {
+  width: 55px;
+  height: 55px;
+  font-size: 20px;
+  line-height: 55px;
+  margin-right: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  color: rgba(55, 55, 55, 0.6);
+}
+.container .focus li.active {
+  color: #fff;
+  background: #57bc4c;
+  border: 1px solid #57bc4c;
+}
+/*# sourceMappingURL=team.css.map */
