@@ -1,19 +1,27 @@
 @import "reset.min.css";
+html {
+  font-size: 100px;
+}
 html,
 body {
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 .main {
-  width: 1440px;
-  margin: 0 auto;
+  width: 19.2rem;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-family: "Microsoft YaHei";
+  margin-left: -9.6rem;
 }
 .main .header {
-  width: 100%;
+  width: 14.4rem;
   height: 225px;
+  margin: auto;
   position: relative;
 }
 .main .header div {
@@ -22,53 +30,52 @@ body {
 }
 .main .header .logo {
   position: absolute;
-  left: 15px;
+  left: .15rem;
   top: 53px;
 }
 .main .header .logo .slogan {
-  width: 255px;
+  width: 2.55rem;
   height: 31px;
   margin-bottom: 20px;
-  margin-left: 40px;
+  margin-left: .40rem;
   display: inline-block;
   background-image: url("../image/slogan.png");
 }
 .main .header .logo img {
   height: 100px;
-  width: 105px;
+  width: 1.05rem;
 }
 .main .header .search {
   color: #fff;
-  width: 475px;
+  width: 4.75rem;
   height: 60px;
   line-height: 56px;
-  margin-left: 620px;
+  margin-left: 6.20rem;
   background: #468f3e;
   margin-top: 73px;
   border: 2px solid #468f3e;
 }
 .main .header .search span {
   display: inline-block;
-  width: 70px;
+  width: .70rem;
   text-align: center;
-  font-size: 16px;
+  font-size: .18rem;
 }
 .main .header .search input {
   height: 56px;
-  width: 395px;
+  width: 3.95rem;
   border: none;
-  font-size: 16px;
+  font-size: .18rem;
   margin-left: 2px;
   margin-top: 2px;
   text-indent: 10px;
 }
 .main .header .tel {
-  margin-right: 50px;
   margin-top: 70px;
   text-align: right;
-  font-size: 20px;
+  font-size: .30rem;
   float: right;
-  width: 240px;
+  width: 2.90rem;
   height: 70px;
   color: #555;
 }
@@ -79,7 +86,7 @@ body {
   line-height: 35px;
 }
 .main .header .tel p .icon {
-  width: 30px;
+  width: .30rem;
   height: 18px;
   opacity: 0.3;
   display: inline-block;
@@ -107,7 +114,8 @@ body {
   display: inline-block;
   text-align: center;
   line-height: 50px;
-  font-size: 22px;
+  font-size: .16rem;
+  font-weight: bold;
   color: rgba(0, 0, 0, 0.6);
   width: 135px;
   height: 50px;
@@ -130,66 +138,68 @@ body {
 }
 h2,
 h3 {
-  font-size: 24px;
+  font-size: .26rem;
 }
 .container {
-  padding-bottom: 200px;
+  width: 14.4rem;
+  margin: auto;
+  padding-bottom: 2.00rem;
 }
 .container .title {
-  margin: 100px 0;
+  margin: 1.00rem 0;
 }
 .container .title p {
   opacity: 0.9;
   color: #333;
-  font-size: 32px;
+  font-size: .40rem;
   display: inline-block;
 }
 .container .title p.en {
-  font-size: 24px;
-  padding-left: 20px;
+  font-size: .28rem;
+  padding-left: .20rem;
   opacity: 0.5;
 }
 .container .describe .text {
   text-indent: 2em;
-  font-size: 20px;
-  line-height: 50px;
+  font-size: .20rem;
+  line-height: .50rem;
   color: rgba(0, 0, 0, 0.7);
   letter-spacing: -1px;
 }
 .container .describe .part0 {
-  margin-bottom: 80px;
+  margin-bottom: .80rem;
 }
 .container .describe .part0 h2 {
   opacity: 0.8;
-  font-size: 24px;
-  margin-bottom: 80px;
+  font-size: .32rem;
+  margin-bottom: .80rem;
 }
 .container .describe .part0 .img {
-  margin-bottom: 50px;
+  margin-bottom: .50rem;
 }
 .container .describe .part0 .img .storyImg {
-  width: 1440px;
-  height: 415px;
-  background-size: 1440px 600px;
+  width: 14.40rem;
+  height: 4.15rem;
+  background-size: 14.40rem 6.00rem;
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url("../image/story.png");
 }
 .container .describe .part0 .img p {
   color: #555;
-  height: 85px;
-  font-size: 24px;
+  height: .85rem;
+  font-size: .20rem;
   font-weight: bold;
-  line-height: 85px;
+  line-height: .85rem;
   text-align: center;
 }
 .container .describe .part1 {
   border-top: 1px solid rgba(55, 55, 55, 0.1);
-  margin-bottom: 60px;
+  margin-bottom: .60rem;
 }
 .container .describe .part1 h3 {
   opacity: 0.8;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin-top: 1.00rem;
+  margin-bottom: .80rem;
 }
 /*# sourceMappingURL=story.css.map */

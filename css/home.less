@@ -2,23 +2,22 @@
 //banner
 .banner{
   .container {
-    @W: 1920px;
-    @H: 500px;
+    @W: 19.20rem;
+    @H: 5.00rem;
 
     position: relative;
-    left:-240px;
-    margin: 20px auto;
+    margin: 0.20rem auto;
     width: @W;
     height: @H;
     text-align: center;
     overflow: hidden;
-    background: url("../img/default.gif") no-repeat center center #EEE;
+    background:#EEE;
 
     .wrapper {
       position: absolute;
       top: 0;
       left: 0;
-      width: unit(unit(@W,px)*10, px); //=>需要在JS中根据获取的数据动态设定宽度
+      width: unit(unit(@W,rem)*10, rem); //=>需要在JS中根据获取的数据动态设定宽度
       height: @H;
 
       .slide {
@@ -45,7 +44,7 @@
     .focus {
       display: inline-block;
       position: relative;
-      top: unit(unit(@H,px)-30, px);
+      top: unit(unit(@H,rem)-.30, rem);
       z-index: 999;
       padding: 4px;
       background: #999;
@@ -73,73 +72,89 @@
 }
 
 .container {
-  margin-top: 80px;
+  margin-top: .80rem;
+  font-size: .16rem;
 
   .title {
-    width: 200%;
-    height: 90px;
-    padding: 60px 0;
-    margin-left: -50%;
+    width: 100%;
+    padding: .60rem 0;
     .mainTitle {
       text-align: center;
       font-weight: bold;
       margin: 0 auto;
-      font-size: 32px;
-      width: 170px;
+      font-size: .54rem;
       p {
         vertical-align: middle;
         display: inline-block;
       }
       .icon {
-        width: 32px;
-        height: 35px;
-        margin-top: 6px;
+        width: .32rem;
+        height: .35rem;
+        margin-top: .06rem;
         background-repeat: no-repeat;
-        background-size: 30px 32px;
+        background-size: .30rem .32rem;
         background-image: url("../image/home_icon1.png");
       }
     }
 
     .subtitle {
-      width: 690px;
-      font-size: 26px;
-      margin: 10px auto 100px;
+      width: 100%;
+      text-align: center;
+      font-size: .32rem;
+      margin: .10rem auto 0;
       color: rgba(0, 0, 0, 0.4);
       .left {
-        margin-right: 20px;
+        margin-right: .20rem;
       }
       .right {
-        float: right;
+        margin-left: .2rem;
       }
       .bold {
         color: #57bc4c;
       }
     }
   }
+  .content{
+    width: 14.4rem;
+    margin: auto;
+  }
 
   .star {
+
     .content {
+      margin-bottom: 1rem;
       .productCell {
-        width: 450px;
-        height: 570px;
-        margin: 0 13px;
+        width: 4.50rem;
+        height: 5.70rem;
+        margin: 0 .13rem;
         text-align: center;
-        margin-bottom: 50px;
+        padding:.02rem;
+        box-sizing: border-box;
+        margin-bottom: .50rem;
         display: inline-block;
         .img {
           width: 100%;
-          height: 460px;
+          height: 4.60rem;
           text-align: center;
           background: #f6f7fb;
           img {
-            margin-top: 25px;
+            width: 1.6rem;
+            margin-top: .25rem;
           }
         }
         .text {
-          height: 110px;
-          font-size: 24px;
-          line-height: 110px;
+          height: 1.10rem;
+          font-size: .24rem;
+          line-height: 1.10rem;
           color: rgba(0, 0, 0, 0.8);
+        }
+        &:hover{
+          color: #fff;
+          background: #57bc4c;
+          border: .02rem solid #57bc4c;
+          .text{
+            color:#fff !important;
+          }
         }
       }
     }
@@ -155,7 +170,8 @@
         }
       }
       .subtitle {
-        width: 810px;
+        width: 100%;
+        text-align: center;
         color: #fff;
         .right {
           float: none;
@@ -164,52 +180,55 @@
     }
 
     .content {
+      margin-bottom: .8rem;
       background-image: url("../image/product_background.png");
-      background-position: 0  -15px;
+      background-position: 0  -.15rem;
       background-size: 110% 110%;
-      margin-left: -20%;
-      height: 880px;
-      width: 140%;
+      height: 8.80rem;
+      width: 19.2rem;
       .text {
-        width: 1440px;
+        width: 14.40rem;
         margin: auto;
         .img {
           float: left;
-          width: 420px;
+          width: 4.20rem;
           height: 100%;
           text-align: center;
           img {
-            width: 300px;
-            margin-top: 80px;
+            width: 3.00rem;
+            margin-top: .80rem;
           }
         }
         .storyText {
           float: right;
           height: 100%;
-          width: 950px;
+          width: 9.50rem;
           .title1 {
             color: #57bc4c;
             background: none;
-            font-size: 24px;
-            margin-top: 270px;
+            font-size: .40rem;
+            margin-top: 2.70rem;
+            font-weight: bold;
+            margin-bottom: .8rem;
           }
           .text {
-            width: 950px;
-            font-size: 16px;
-            line-height: 50px;
+            width: 9.50rem;
+            font-size: .20rem;
+            line-height: .50rem;
             color: rgba(0, 0, 0, 0.2);
           }
           .more {
-            width: 218px;
-            height: 70px;
+            width: 2.18rem;
+            height: .70rem;
             float: right;
             color: #fff;
-            font-size: 20px;
-            line-height: 70px;
+            font-size: .20rem;
+            line-height: .70rem;
             text-indent: 2em;
-            margin-top: 100px;
+            margin-top: .60rem;
             background-image: url("../image/home_btn_background.png");
             background-repeat: no-repeat;
+            background-size: contain;
           }
         }
       }
@@ -219,41 +238,44 @@
   .support {
     .title{
       .subtitle{
-        width: 780px;
+        width: 100%;
+        text-align: center;
       }
     }
 
     .content {
-      width: 100%;
-      height: 700px;
+      width: 14.4rem;
+      height: 7.00rem;
       background-image: url("../image/home_technology_background.png");
       background-repeat: no-repeat;
-      background-position: 590px 0;
+      background-position: 5.90rem 0;
+      background-size: 8rem 8rem;
       .technology {
         .title1 {
-          color: #000;
+          color: rgba(0,0,0,0.7);
           background: none;
-          font-size: 24px;
-          padding-top: 100px;
-          margin-bottom: 60px;
+          font-size: .40rem;
+          padding-top: 1.00rem;
+          margin-bottom: .60rem;
         }
         .text {
-          width: 580px;
-          font-size: 16px;
-          line-height: 50px;
+          width: 5.80rem;
+          font-size: .20rem;
+          line-height: .50rem;
           color: rgba(0, 0, 0, 0.2);
         }
         .more {
-          width: 218px;
-          height: 70px;
+          width: 2.18rem;
+          height: .70rem;
           color: #fff;
-          font-size: 20px;
-          line-height: 70px;
+          font-size: .20rem;
+          line-height: .70rem;
           text-indent: 2em;
-          margin-top: 100px;
-          margin-left: 35px;
+          margin-top: .60rem;
+          margin-left: .35rem;
           background-image: url("../image/home_btn_background.png");
           background-repeat: no-repeat;
+          background-size: contain;
         }
       }
     }
@@ -261,66 +283,71 @@
   }
 
   .service {
+    padding-top: .5rem;
     background-image: url("../image/home_service_background.png");
     background-size: 100% 100%;
-
-    width: 140%;
-    margin-left: -20%;
+margin-bottom: .8rem;
+    width: 19.2rem;
 
     .title {
       .subtitle {
-        width: 860px;
+        width: 100%;
+        text-align: center;
       }
     }
 
     .content {
-      padding-bottom: 40px;
+      padding-bottom: .40rem;
       .title1 {
-        color: #000;
+        color: rgba(0,0,0,0.7);
         background: none;
-        font-size: 24px;
+        font-size: .40rem;
         text-align: center;
-        margin: 0 auto 60px;
-        padding-top: 100px;
+        margin: 0 auto .60rem;
+        padding-top: 1.00rem;
       }
       .text {
-        width: 700px;
-        font-size: 16px;
-        line-height: 50px;
+        width: 10rem;
+        font-size: .20rem;
+        line-height: .50rem;
         margin: auto;
-        color: rgba(0, 0, 0, 0.2);
+        color: rgba(55, 55, 55, 0.5);
       }
       .more {
-        width: 218px;
-        height: 70px;
+        width: 2.18rem;
+        height: .70rem;
         color: #fff;
-        font-size: 20px;
-        line-height: 70px;
+        font-size: .20rem;
+        line-height: .70rem;
         text-indent: 2em;
-        margin-top: 60px;
+        margin-top: .60rem;
         margin-left: 70%;
         background-image: url("../image/home_btn_background.png");
         background-repeat: no-repeat;
+        background-size: contain;
       }
     }
   }
 
   .news{
+    margin-bottom: .8rem;
     .title{
 
       .subtitle{
-        width: 860px;
+        width: 100%;
+        text-align: center;
       }
     }
 
     .content{
       .productCell {
-        width: 690px;
-        margin: 0 14px;
+        width: 6.85rem;
+        margin: 0 .14rem;
+        margin-top: .8rem;
         display: inline-block;
         .img{
-          width: 690px;
-          height: 240px;
+          width: 6.90rem;
+          height: 2.40rem;
           overflow: hidden;
           img{
             width: 100%;
@@ -328,29 +355,38 @@
         }
 
         .title{
-          height: 30px;
-          margin: 40px 0;
-          font-size: 24px;
-          line-height: 30px;
+          height: .30rem;
+          margin: .40rem 0;
+          font-size: .26rem;
+          line-height: .30rem;
+          padding: 0;
           color:rgba(0,0,0,0.8);
         }
 
         .text{
-          height: 120px;
-          margin: 20px 0;
-          font-size: 16px;
+          height: 1.20rem;
+          margin: .20rem 0;
+          font-size: .16rem;
           overflow:hidden;
-          line-height: 40px;
+          line-height: .40rem;
           color:rgba(55,55,55,0.4);
           text-overflow:ellipsis;
         }
         .time{
-          height: 100px;
-          font-size: 18px;
+          height: 1.00rem;
+          font-size: .18rem;
           font-weight: bold;
-          line-height: 100px;
+          line-height: 1.00rem;
           color:rgba(0,0,0,0.6);
           border-top: 1px solid #ccc;
+        }
+        &:hover{
+          .title{
+            color: #57bc4c;
+          }
+          .time{
+            border-top: 1px solid #57bc4c;
+          }
         }
       }
     }
@@ -358,36 +394,36 @@
 }
 
 .footer{
-  width: 140%;
-  margin-left: -20%;
-  height: 560px;
+  width: 19.2rem;
+  height: 5.60rem;
   background: #57bc4c;
   color: #fff;
-  padding-top: 40px;
+  padding-top: .40rem;
   .footerContainer{
-    width: 1440px;
+    width: 14.40rem;
     margin: auto;
   }
   .contact{
     float: left;
     h3{
-      font-size: 32px;
-      margin: 40px 0;
+      font-size: .40rem;
+      margin: .40rem 0;
     }
     h5{
-      font-size: 24px;
-      margin: 20px 0;
+      font-size: .22rem;
+      font-weight: 500;
+      margin: .20rem 0;
     }
     p{
-        font-size: 18px;
-      height: 50px;
-      line-height: 50px;
+        font-size: .18rem;
+      height: .50rem;
+      line-height: .50rem;
       img{
-        width: 25px;
-        height: 25px;
+        width: .25rem;
+        height: .25rem;
         float: left;
-        margin-top: 12px;
-        margin-right: 15px;
+        margin-top: .12rem;
+        margin-right: .15rem;
       }
     }
   }
@@ -396,24 +432,24 @@
     margin-right: 2px;
     ul{
       li{
-        height: 60px;
+        height: .60rem;
 
-        margin-bottom: 20px;
+        margin-bottom: .20rem;
         input{
           border: none;
-          font-size: 18px;
-          height: 60px;
-          width: 600px;
+          font-size: .18rem;
+          height: .60rem;
+          width: 6.00rem;
           color: #fff;
-          border-bottom: 1px solid #fff;
+          border-bottom: 2px solid #fff;
           background-color: #57bc4c;
         }
         .btn {
-          margin-top: 60px;
+          margin-top: .60rem;
           width: 100%;
           height: 100%;
-          line-height: 60px;
-          font-size: 18px;
+          line-height: .60rem;
+          font-size: .18rem;
           background: #fff;
           color: #57bc4c;
           text-align: center;

@@ -1,19 +1,27 @@
 @import "reset.min.css";
+html {
+  font-size: 100px;
+}
 html,
 body {
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 .main {
-  width: 1440px;
-  margin: 0 auto;
+  width: 19.2rem;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-family: "Microsoft YaHei";
+  margin-left: -9.6rem;
 }
 .main .header {
-  width: 100%;
+  width: 14.4rem;
   height: 225px;
+  margin: auto;
   position: relative;
 }
 .main .header div {
@@ -22,53 +30,52 @@ body {
 }
 .main .header .logo {
   position: absolute;
-  left: 15px;
+  left: .15rem;
   top: 53px;
 }
 .main .header .logo .slogan {
-  width: 255px;
+  width: 2.55rem;
   height: 31px;
   margin-bottom: 20px;
-  margin-left: 40px;
+  margin-left: .40rem;
   display: inline-block;
   background-image: url("../image/slogan.png");
 }
 .main .header .logo img {
   height: 100px;
-  width: 105px;
+  width: 1.05rem;
 }
 .main .header .search {
   color: #fff;
-  width: 475px;
+  width: 4.75rem;
   height: 60px;
   line-height: 56px;
-  margin-left: 620px;
+  margin-left: 6.20rem;
   background: #468f3e;
   margin-top: 73px;
   border: 2px solid #468f3e;
 }
 .main .header .search span {
   display: inline-block;
-  width: 70px;
+  width: .70rem;
   text-align: center;
-  font-size: 16px;
+  font-size: .18rem;
 }
 .main .header .search input {
   height: 56px;
-  width: 395px;
+  width: 3.95rem;
   border: none;
-  font-size: 16px;
+  font-size: .18rem;
   margin-left: 2px;
   margin-top: 2px;
   text-indent: 10px;
 }
 .main .header .tel {
-  margin-right: 50px;
   margin-top: 70px;
   text-align: right;
-  font-size: 20px;
+  font-size: .30rem;
   float: right;
-  width: 240px;
+  width: 2.90rem;
   height: 70px;
   color: #555;
 }
@@ -79,7 +86,7 @@ body {
   line-height: 35px;
 }
 .main .header .tel p .icon {
-  width: 30px;
+  width: .30rem;
   height: 18px;
   opacity: 0.3;
   display: inline-block;
@@ -107,7 +114,8 @@ body {
   display: inline-block;
   text-align: center;
   line-height: 50px;
-  font-size: 22px;
+  font-size: .16rem;
+  font-weight: bold;
   color: rgba(0, 0, 0, 0.6);
   width: 135px;
   height: 50px;
@@ -125,46 +133,48 @@ body {
   border-top: 3px solid #468f3e;
 }
 .container {
-  margin-bottom: 100px;
+  width: 14.4rem;
+  margin: 0 auto 1.00rem;
 }
 .container .banner {
-  margin-top: 20px;
+  margin-top: .20rem;
   position: relative;
   width: 100%;
-  height: 365px;
+  height: 3.65rem;
 }
 .container .banner img {
-  top: -115px;
-  width: 1920px;
-  height: 600px;
+  top: -1.15rem;
+  width: 19.20rem;
+  height: 6.00rem;
   left: 50%;
   position: absolute;
-  margin: 0 0 0 -960px;
+  margin: 0 0 0 -9.6rem;
 }
 .container .title {
-  margin: 100px 0;
+  margin: 1.00rem 0;
 }
 .container .title p {
   opacity: 0.9;
   color: #333;
-  font-size: 32px;
+  font-size: .40rem;
   display: inline-block;
 }
 .container .title p.en {
-  font-size: 24px;
-  padding-left: 20px;
+  font-size: .28rem;
+  padding-left: .20rem;
   opacity: 0.5;
 }
 .container .title .btn {
   float: right;
 }
 .container .title .btn button {
-  width: 110px;
-  height: 50px;
+  width: 1.10rem;
+  height: .50rem;
+  font-size: .20rem;
   border: 1px solid #ccc;
   background: #fff;
-  margin: 0 10px;
-  border-radius: 25px;
+  margin: 0 .10rem;
+  border-radius: .25rem;
 }
 .container .title .btn button.active {
   color: #fff;
@@ -177,39 +187,40 @@ body {
   display: block;
 }
 .container .qaList .describe ul li {
-  margin-bottom: 40px;
+  margin-bottom: .40rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .container .qaList .describe ul li .question {
-  font-size: 24px;
+  font-size: .26rem;
 }
 .container .qaList .describe ul li .question span {
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.8);
 }
 .container .qaList .describe ul li .question .data,
 .container .qaList .describe ul li .question .time {
-  font-weight: 600;
+  font-weight: bold;
   float: right;
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: .24rem;
+  margin-left: .20rem;
   color: rgba(0, 0, 0, 0.5);
 }
 .container .qaList .describe ul li .answer {
   color: #ccc;
-  height: 80px;
-  font-size: 20px;
-  line-height: 80px;
+  height: .80rem;
+  font-size: .20rem;
+  line-height: .80rem;
 }
 .container .focus {
-  margin-top: 100px;
+  margin-top: 1.00rem;
   text-align: center;
 }
 .container .focus li {
-  width: 55px;
-  height: 55px;
-  font-size: 20px;
-  line-height: 55px;
-  margin: 0 10px;
+  width: .55rem;
+  height: .55rem;
+  font-size: .20rem;
+  line-height: .55rem;
+  margin: 0 .10rem;
   display: inline-block;
   border: 1px solid #ccc;
   color: rgba(55, 55, 55, 0.6);

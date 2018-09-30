@@ -1,4 +1,22 @@
 'use strict';
+(function () {
+  let computed = function () {
+    let desW = 1920,
+      devW = document.documentElement.clientWidth;
+    console.log(devW);
+    if (devW >= 1920) {
+      document.documentElement.style.fontSize = '100px';
+      return;
+    }
+    if(devW<=1440){
+      document.documentElement.style.fontSize = '75px';
+      return;
+    }
+    document.documentElement.style.fontSize = devW / desW * 100 + 'px';
+  };
+  computed();
+  window.addEventListener('resize', computed, false);
+})();
 
 ~function () {
   //  header
