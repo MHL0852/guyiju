@@ -64,12 +64,12 @@ body {
   font-size: .18rem;
 }
 .main .header .search input {
-  height: .56rem;
-  width: 3.95rem;
+  height: .58rem;
+  width: 3.97rem;
   border: none;
   font-size: .18rem;
-  margin-left: .02rem;
-  margin-top: .02rem;
+  margin-left: .01rem;
+  margin-top: .01rem;
   text-indent: .10rem;
 }
 .main .header .tel {
@@ -79,7 +79,7 @@ body {
   float: right;
   width: 2.90rem;
   height: .70rem;
-  color: #555;
+  color: #959595;
 }
 .main .header .tel p {
   width: 100%;
@@ -88,15 +88,18 @@ body {
   line-height: .35rem;
 }
 .main .header .tel p .icon {
-  width: .30rem;
-  height: .18rem;
+  width: .35rem;
+  height: .25rem;
   opacity: 0.3;
   display: inline-block;
-  background-size: .18rem .18rem;
+  background-size: .25rem .25rem;
   background-repeat: no-repeat;
   border-right: .02rem solid #555;
   margin-right: .10rem;
   background-image: url("../image/phone.png");
+}
+.main .header .tel p:nth-child(2) {
+  color: #555;
 }
 .main .header .nav {
   position: absolute;
@@ -110,6 +113,9 @@ body {
   margin-left: -2000px;
   opacity: 0.3;
   background: #333;
+  position: relative;
+  top: 1px;
+  z-index: -1;
 }
 .main .header .nav ul li {
   box-sizing: border-box;
@@ -117,8 +123,8 @@ body {
   text-align: center;
   line-height: .50rem;
   font-size: .16rem;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  color: #333333;
   width: 1.35rem;
   height: .50rem;
   float: left;
