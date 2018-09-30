@@ -8,8 +8,8 @@
       document.documentElement.style.fontSize = '100px';
       return;
     }
-    if(devW<=1440){
-      document.documentElement.style.fontSize = '75px';
+    if(devW <= 1280){
+      document.documentElement.style.fontSize = '67px';
       return;
     }
     document.documentElement.style.fontSize = devW / desW * 100 + 'px';

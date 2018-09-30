@@ -2,43 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1afc4baa-a2de-4757-b787-fbed1ae6d688" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Date/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Date/Data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/about.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/detail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/detail.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/detail.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/detail.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/detail.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/news.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/news.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/news.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/news.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/news.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/products.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/products.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/products.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/products.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/products.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/relation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/relation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/relation.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/relation.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/relation.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/relation.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/service.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/service.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/service.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/service.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/service.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/service.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/story.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/story.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/story.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/story.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/story.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/story.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/team.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/team.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/team.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/team.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/team.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail2.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es5/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/es5/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es5/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/es5/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/固宜居.zip" beforeDir="false" afterPath="$PROJECT_DIR$/固宜居.zip" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,69 +36,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="detail.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/detail.less">
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/es5/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding>
-                <element signature="e#294#422#0" />
-                <element signature="e#665#1430#0" />
-                <element signature="e#1441#2356#0" />
-                <element signature="e#2367#2523#0" />
-                <element signature="e#2380#2430#0" />
-                <element signature="e#2773#2791#0" />
-                <element signature="e#2551#2661#0" />
-                <element signature="e#2670#2858#0" />
-                <element signature="e#2806#2844#0" />
-                <element signature="e#2873#4017#0" />
-              </folding>
+            <state relative-caret-position="290">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/home.less">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="412" column="20" selection-start-line="412" selection-start-column="20" selection-end-line="412" selection-end-column="20" />
-              <folding>
-                <element signature="e#36#1310#0" />
-                <element signature="e#1455#1896#0" />
-                <element signature="e#2064#2103#0" />
-                <element signature="e#2117#2154#0" />
-                <element signature="e#2311#2832#0" />
-                <element signature="e#2491#2673#0" />
-                <element signature="e#2688#2824#0" />
-                <element signature="e#2826#2920#0" />
-                <element signature="e#2853#4506#0" />
-                <element signature="e#4519#5576#0" />
-                <element signature="e#5743#5825#0" />
-                <element signature="e#5840#6589#0" />
-                <element signature="e#5886#6058#0" />
-                <element signature="e#6602#7613#0" />
-                <element signature="e#6826#6970#0" />
-                <element signature="e#6986#7144#0" />
-                <element signature="e#7159#7382#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="story.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/story.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/products.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="86" selection-end-column="7" />
+            <state relative-caret-position="66">
+              <caret line="54" column="123" selection-start-line="54" selection-start-column="123" selection-end-line="54" selection-end-column="123" />
             </state>
           </provider>
         </entry>
@@ -122,56 +57,8 @@
       <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/header.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="e#1929#2060#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="team.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/team.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/service.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-799">
-              <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/news.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/about.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-480">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relation.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/relation.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="84" column="18" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="18" />
+            <state relative-caret-position="439">
+              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -189,7 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>supp</find>
       <find>banner</find>
       <find>product.html</find>
       <find>Cell</find>
@@ -210,15 +96,16 @@
       <find>more</find>
       <find>focus</find>
       <find>5000</find>
-      <find>desc</find>
-      <find>px</find>
       <find>.24</find>
       <find>font-size</find>
       <find>describe</find>
-      <find>font</find>
       <find>.text</find>
       <find>productCell</find>
       <find>active</find>
+      <find>desc</find>
+      <find>font</find>
+      <find>px</find>
+      <find>slo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -255,7 +142,6 @@
         <option value="$PROJECT_DIR$/es5/product.js" />
         <option value="$PROJECT_DIR$/es5/service.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/es5/header.js" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/detail.html" />
         <option value="$PROJECT_DIR$/detail2.html" />
@@ -265,10 +151,11 @@
         <option value="$PROJECT_DIR$/css/service.less" />
         <option value="$PROJECT_DIR$/css/team.less" />
         <option value="$PROJECT_DIR$/css/story.less" />
-        <option value="$PROJECT_DIR$/css/header.less" />
         <option value="$PROJECT_DIR$/css/detail.less" />
         <option value="$PROJECT_DIR$/css/products.less" />
         <option value="$PROJECT_DIR$/css/home.less" />
+        <option value="$PROJECT_DIR$/css/header.less" />
+        <option value="$PROJECT_DIR$/es5/header.js" />
       </list>
     </option>
   </component>
@@ -372,12 +259,12 @@
       <updated>1538030064891</updated>
       <workItem from="1538030071294" duration="10544000" />
       <workItem from="1538098202083" duration="53464000" />
-      <workItem from="1538272710934" duration="17004000" />
+      <workItem from="1538272710934" duration="17541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81012000" />
+    <option name="totallyTimeSpent" value="81549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2204">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -772,19 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es5/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding>
-            <element signature="e#70#517#0" />
-            <element signature="e#213#309#0" />
-            <element signature="e#334#429#0" />
-            <element signature="e#28#880#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -888,16 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#1929#2060#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/detail.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -947,6 +804,27 @@
             <element signature="e#6986#7144#0" />
             <element signature="e#7159#7382#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="54" column="123" selection-start-line="54" selection-start-column="123" selection-end-line="54" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es5/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
