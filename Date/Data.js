@@ -166,12 +166,12 @@ var homeData = {
     {
       "id": 1,
       "img": "./image/home_banner1.png",
-      "link": "http://www.baidu.com/"
+      "link": "./products.html"
     },
     {
       "id": 2,
       "img": "./image/home_banner2.png",
-      "link": "http://www.baidu.com/"
+      "link": "./products.html"
     }
   ],
   //以下是正文的数据，titleUrl是标题前面图标的路径，subTitle是副标题，分为普通颜色和着重色，content是具体的内容
