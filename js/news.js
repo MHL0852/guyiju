@@ -2,6 +2,23 @@
   let data = newsData.content
   let container = $('.newsList')[0];
   let focus = $('.focus')[0]
+  
+  //全部按钮与最新按钮切换
+  let btns = $('.btn').children('button');
+  let btnShow = 0;
+  for (let i = 0; i < btns.length; i++) {
+    let item = btns[i];
+    ~function () {
+      let x = i;
+      item.addEventListener('click',function () {
+        if (x === btnShow) return;
+        item.className += ' active';
+        btns[btnShow].className = btns[btnShow].className.replace(' active', '')
+        btnShow = x;
+      }, false)
+    }()
+  }
+  
   for (let i = 0; i < data.length; i++) {
     let str = '';
     let teams = data[i];
