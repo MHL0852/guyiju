@@ -165,7 +165,7 @@ var homeData = {
   "banner": [
     {
       "id": 1,
-      "img": "./image/home_banner1.png",
+      "img": "./image/home_banner2.png",
       "link": "./products.html"
     },
     {

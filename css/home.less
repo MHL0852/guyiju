@@ -3,7 +3,7 @@
 .banner{
   .container {
     @W: 19.20rem;
-    @H: 5.00rem;
+    @H: 6.00rem;
 
     position: relative;
     margin: 0.20rem auto;
@@ -44,7 +44,7 @@
     .focus {
       display: inline-block;
       position: relative;
-      top: unit(unit(@H,rem)-.30, rem);
+      top: unit(unit(@H,rem)-.60, rem);
       z-index: 999;
       padding: 4px;
       background: #999;
@@ -74,6 +74,14 @@
 .container {
   margin-top: .80rem;
   font-size: .16rem;
+
+  .left{
+    opacity: 0.2;
+  }
+
+  .right{
+    opacity: 0.2;
+  }
 
   .title {
     width: 100%;
@@ -120,7 +128,6 @@
   }
 
   .star {
-
     .content {
       margin-bottom: 1rem;
       .productCell {
