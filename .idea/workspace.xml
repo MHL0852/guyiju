@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1afc4baa-a2de-4757-b787-fbed1ae6d688" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/detail.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/detail.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/news.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/news.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/news.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/news.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/products.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/products.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/products.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/products.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/relation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/relation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/relation.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/relation.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/relation.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/relation.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/service.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/service.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/service.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/service.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/service.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/service.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/story.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/story.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/story.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/story.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/story.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/story.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/team.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/team.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/team.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/team.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail2.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es5/animate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es5/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/es5/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es5/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/es5/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es5/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/es5/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es5/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/es5/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es5/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/es5/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relation.html" beforeDir="false" afterPath="$PROJECT_DIR$/relation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/story.html" beforeDir="false" afterPath="$PROJECT_DIR$/story.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,18 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="relation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/relation.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -171,11 +112,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="news.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/news.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
               <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -274,7 +224,6 @@
         <option value="$PROJECT_DIR$/es5/banner.js" />
         <option value="$PROJECT_DIR$/es5/product.js" />
         <option value="$PROJECT_DIR$/es5/service.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/css/detail.less" />
         <option value="$PROJECT_DIR$/Date/Data.js" />
         <option value="$PROJECT_DIR$/js/animate.js" />
@@ -304,6 +253,7 @@
         <option value="$PROJECT_DIR$/service.html" />
         <option value="$PROJECT_DIR$/css/service.less" />
         <option value="$PROJECT_DIR$/css/news.less" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -389,7 +339,7 @@
       <path value="$PROJECT_DIR$/node_modules/to-fast-properties/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1935" />
     <option name="height" value="1035" />
@@ -476,12 +426,12 @@
       <workItem from="1538030071294" duration="10544000" />
       <workItem from="1538098202083" duration="53464000" />
       <workItem from="1538272710934" duration="22949000" />
-      <workItem from="1538961934793" duration="25843000" />
+      <workItem from="1538961934793" duration="25898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112800000" />
+    <option name="totallyTimeSpent" value="112855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +443,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1321004" />
@@ -622,13 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1086,6 +1029,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
