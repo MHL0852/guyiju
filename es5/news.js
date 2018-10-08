@@ -50,6 +50,7 @@
       } else {
         item.className = item.className.replace('active', '');
         $('.newsList').children('li')[index].className = $('.newsList').children('li')[index].className.replace('active', '');
+        $(item).find('li').removeClass('animated');
       }
     });
     //返回首页动画
@@ -67,3 +68,27 @@
     }, 5);
   });
 })();
+
+//动画
+var animate_news = function animate_news() {
+  var duration = 1500,
+      effect = animateEffect.Circ.easeOut;
+  var win = utils.winBox('clientHeight') + utils.winBox('scrollTop');
+
+  var active = $('.newsList').children('.active');
+  var newsList = active.find('li');
+  [].forEach.call(newsList, function (item) {
+    var A = utils.offset(item)['top'];
+    if (win > A && !$(item).hasClass('animated')) {
+      animate({
+        curEle: item,
+        target: { top: 0, opacity: 1 },
+        duration: duration,
+        effect: effect
+      });
+      $(item).addClass('animated');
+    }
+  });
+};
+animate_news();
+window.addEventListener('scroll', animate_news, false);

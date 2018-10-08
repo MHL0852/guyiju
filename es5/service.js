@@ -51,8 +51,8 @@
         $('.qaList').children('li')[index].className = $('.qaList').children('li')[index].className.replace('active', '');
       }
     });
-    //返回头部动画
-/*    var top = window.pageYOffset,
+    //返回首页动画
+    var top = window.pageYOffset,
         x = 20;
     var timer = setInterval(function () {
 
@@ -63,6 +63,6 @@
         timer = null;
       }
       x--;
-    }, 5);*/
+    }, 5);
   });
 })();

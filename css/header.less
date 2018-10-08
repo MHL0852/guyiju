@@ -130,10 +130,12 @@ html, body {
           height: .50rem;
           float: left;
           cursor: pointer;
+          border-top: .03rem solid rgba(0,0,0,0);
+          transition: border-top-color ease 1.5s;
           &:hover{
             color:#468f3e;
             line-height: .45rem;
-            border-top: .03rem solid #468f3e;
+            border-top-color:#468f3e;
           }
           &.active{
             color:#468f3e;

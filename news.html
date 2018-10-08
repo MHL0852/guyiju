@@ -5,7 +5,10 @@
   <title>固宜居</title>
 
   <link rel="stylesheet" href="./css/news.css">
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="es5/animate.min.js"></script>
+  <script src="es5/utils.min.js"></script>
+  <script src="es5/jquery-1.11.3.min.js"></script>
+  <script src="es5/header.js"></script>
 </head>
 <body>
 <div class="main">
@@ -27,7 +30,7 @@
 
     <div class="nav">
       <p class="line"></p>
-      <ul  id="nav_list">
+      <ul id="nav_list">
         <li>首页</li>
         <li>固宜居美缝</li>
         <li>品牌故事</li>
@@ -42,12 +45,14 @@
 
   <div class="container clear">
     <div class="title">
-      <p class="cn">
-        新闻咨询
-      </p>
-      <p class="en">
-        News
-      </p>
+      <div id="title">
+        <p class="cn">
+          新闻咨询
+        </p>
+        <p class="en">
+          News
+        </p>
+      </div>
       <div class="btn">
         <button class="all active">全部</button>
         <button class="new">最新</button>
@@ -63,7 +68,6 @@
 
 </div>
 <script src="Date/Data.js"></script>
-<script src="es5/header.js"></script>
 <script src="es5/news.js"></script>
 </body>
 </html>

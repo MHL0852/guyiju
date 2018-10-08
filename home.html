@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <title>固宜居</title>
   <link rel="stylesheet" href="./css/home.css">
-  <script src="js/animate.min.js"></script>
+  <script src="es5/animate.min.js"></script>
   <script src="Date/Data.js"></script>
-  <script src="js/utils.min.js"></script>
-  <script src="js/jquery-1.11.3.min.js"></script>
-
+  <script src="es5/utils.min.js"></script>
+  <script src="es5/jquery-1.11.3.min.js"></script>
+  <script src="es5/header.js"></script>
 </head>
 <body>
 <div class="main">
@@ -56,7 +56,7 @@
 
   <div class="container">
     <div class="star">
-      <div class="title">
+      <div class="title" id="star_title">
         <div class="mainTitle">
           <p class="icon"></p>
           <p class="mainTitleText"></p>
@@ -95,8 +95,8 @@
 
       <div class="content">
         <div class="text clear">
-          <div class="img"></div>
-          <div class="storyText">
+          <div class="img" id="story_img"></div>
+          <div class="storyText" id="story_text">
             <p class="title1"></p>
             <p class="text"></p>
             <a href="./story.html">
@@ -236,7 +236,6 @@
   </div>
 </div>
 
-<script src="es5/header.js"></script>
 <script src="es5/banner.js"></script>
 <script src="es5/home.js"></script>
 </body>

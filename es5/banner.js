@@ -1,6 +1,6 @@
 'use strict';
 
-~function (options) {
+$(function (options) {
   var container = document.getElementById('container'),
       containerChild = utils.children(container),
       wrapper = containerChild[0],
@@ -121,4 +121,4 @@
       focusList[i].className = i === tempIndex ? 'select' : null;
     }
   }
-}();
+});

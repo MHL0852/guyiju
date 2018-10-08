@@ -129,11 +129,13 @@ body {
   height: .50rem;
   float: left;
   cursor: pointer;
+  border-top: 0.03rem solid rgba(0, 0, 0, 0);
+  transition: border-top-color ease 1.5s;
 }
 .main .header .nav ul li:hover {
   color: #468f3e;
   line-height: .45rem;
-  border-top: .03rem solid #468f3e;
+  border-top-color: #468f3e;
 }
 .main .header .nav ul li.active {
   color: #468f3e;
@@ -146,6 +148,12 @@ body {
 }
 .container .title {
   margin: 1.00rem 0;
+}
+.container .title #title {
+  top: 0.5rem;
+  opacity: 0;
+  display: inline-block;
+  position: relative;
 }
 .container .title p {
   opacity: 0.9;
@@ -162,6 +170,7 @@ body {
   float: right;
 }
 .container .title .btn button {
+  cursor: pointer;
   width: 1.10rem;
   height: .50rem;
   line-height: .50rem;
@@ -179,11 +188,15 @@ body {
 .container .describe {
   margin-bottom: .6rem;
   display: none;
+  overflow: hidden;
 }
 .container .describe.active {
   display: block;
 }
 .container .describe li {
+  position: relative;
+  top: 3rem;
+  opacity: 0;
   width: 6.85rem;
   margin: 0 .14rem;
   display: inline-block;
@@ -192,9 +205,15 @@ body {
   width: 6.90rem;
   height: 2.40rem;
   overflow: hidden;
+  position: relative;
 }
 .container .describe li .img img {
-  width: 100%;
+  transition: all ease 0.36s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -1.2rem 0 0 -3.45rem;
+  width: 6.90rem;
 }
 .container .describe li .title {
   height: .30rem;
@@ -227,12 +246,17 @@ body {
   color: #57bc4c;
   border-top: 1px solid #57bc4c;
 }
+.container .describe li:hover .img img {
+  margin: -1.2rem 0 0 -3.75rem;
+  width: 7.5rem;
+}
 .container .focus {
   text-align: center;
 }
 .container .focus li {
   width: .55rem;
   height: .55rem;
+  cursor: pointer;
   font-size: .20rem;
   line-height: .55rem;
   margin-right: .20rem;

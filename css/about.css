@@ -129,11 +129,13 @@ body {
   height: .50rem;
   float: left;
   cursor: pointer;
+  border-top: 0.03rem solid rgba(0, 0, 0, 0);
+  transition: border-top-color ease 1.5s;
 }
 .main .header .nav ul li:hover {
   color: #468f3e;
   line-height: .45rem;
-  border-top: .03rem solid #468f3e;
+  border-top-color: #468f3e;
 }
 .main .header .nav ul li.active {
   color: #468f3e;
@@ -148,6 +150,9 @@ body {
   margin: 1.00rem auto 0;
 }
 .container .title {
+  position: relative;
+  top: 0.5rem;
+  opacity: 0;
   margin-bottom: 1.00rem;
 }
 .container .title p {
