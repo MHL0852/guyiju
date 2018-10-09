@@ -213,6 +213,7 @@ body {
   padding: 0 .30rem;
   line-height: .30rem;
   font-weight: 500;
+  transition: ease 0.36s;
   color: rgba(0, 0, 0, 0.8);
 }
 .container .describe ul li .text {
@@ -224,6 +225,7 @@ body {
   font-weight: 500;
   color: rgba(55, 55, 55, 0.4);
   text-overflow: ellipsis;
+  transition: ease 0.36s;
 }
 .container .describe ul li .examine {
   padding: 0 .30rem;
@@ -238,6 +240,7 @@ body {
   background: #fff;
   font-size: .2rem;
   font-weight: 500;
+  transition: ease 0.36s;
   border-radius: .20rem;
   color: rgba(55, 55, 55, 0.6);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -255,10 +258,10 @@ body {
 .container .describe ul li:hover .examine button {
   color: #57bc4c;
   cursor: pointer;
-  border-top: 1px solid #fff;
+  border: 1px solid #57bc4c;
 }
 .container .describe ul li:hover .img img {
-  margin: -2.25rem 0 0 -4rem;
+  margin: -2.5rem 0 0 -4rem;
   width: 8.00rem;
 }
 .container .focus {

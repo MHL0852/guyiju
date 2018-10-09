@@ -28,17 +28,5 @@
         $('.productList').children('li')[index].className = $('.productList').children('li')[index].className.replace('active', '');
       }
     });
-    var top = window.pageYOffset,
-        x = 20;
-    var timer = setInterval(function () {
-
-      scrollTo(0, x * top / 20);
-
-      if (x <= 0) {
-        clearInterval(timer);
-        timer = null;
-      }
-      x--;
-    }, 5);
   });
 })();

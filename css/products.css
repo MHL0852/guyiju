@@ -213,9 +213,9 @@ body {
   font-weight: 500;
   line-height: 1.10rem;
   color: rgba(0, 0, 0, 0.7);
+  transition: all ease 0.36s;
 }
 .container .productList .part .productCell:hover {
-  color: #fff;
   background: #57bc4c;
   box-sizing: border-box;
 }
@@ -235,11 +235,6 @@ body {
   border: 1px solid #ccc;
   color: rgba(55, 55, 55, 0.6);
   cursor: pointer;
-}
-.container .focus li:hover {
-  color: #fff;
-  background: #57bc4c;
-  border: 1px solid #57bc4c;
 }
 .container .focus li.active {
   color: #fff;

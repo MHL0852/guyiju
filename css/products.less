@@ -41,14 +41,13 @@
     margin-bottom: .8rem;
     .part {
       display: none;
-        &.active {
+      &.active {
         display: block;
       }
 
       .productCell {
         width: 4.50rem;
         height: 5.70rem;
-
         margin: 0 .13rem .50rem;
         text-align: center;
         display: inline-block;
@@ -59,7 +58,7 @@
           text-align: center;
           background: #f6f7fb;
           margin: .02rem .02rem 0;
-          img{
+          img {
             width: 1.6rem;
             margin-top: .25rem;
           }
@@ -70,23 +69,23 @@
           font-weight: 500;
           line-height: 1.10rem;
           color: rgba(0, 0, 0, 0.7);
+          transition: all ease 0.36s;
         }
 
-        &:hover{
-          color: #fff;
+        &:hover {
           background: #57bc4c;
           box-sizing: border-box;
-          .text{
-            color:#fff !important;
+          .text {
+            color: #fff !important;
           }
         }
       }
     }
   }
 
-  .focus{
+  .focus {
     text-align: center;
-    li{
+    li {
       width: .55rem;
       height: .55rem;
       margin: 0 .10rem;
@@ -94,14 +93,10 @@
       line-height: .55rem;
       display: inline-block;
       border: 1px solid #ccc;
-      color: rgba(55,55,55,0.6);
+      color: rgba(55, 55, 55, 0.6);
       cursor: pointer;
-      &:hover{
-        color: #fff;
-        background: #57bc4c;
-        border: 1px solid #57bc4c;
-      }
-      &.active{
+
+      &.active {
         color: #fff;
         background: #57bc4c;
         border: 1px solid #57bc4c;

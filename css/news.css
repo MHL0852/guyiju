@@ -230,6 +230,7 @@ body {
   line-height: .40rem;
   color: rgba(55, 55, 55, 0.4);
   text-overflow: ellipsis;
+  transition: ease 0.36s;
 }
 .container .describe li .time {
   height: 1.00rem;
@@ -237,6 +238,7 @@ body {
   font-weight: bold;
   line-height: 1.00rem;
   color: rgba(0, 0, 0, 0.6);
+  transition: ease 0.36s;
   border-top: 1px solid #ccc;
 }
 .container .describe li:hover .title {
@@ -247,7 +249,7 @@ body {
   border-top: 1px solid #57bc4c;
 }
 .container .describe li:hover .img img {
-  margin: -1.2rem 0 0 -3.75rem;
+  margin: -1.3rem 0 0 -3.75rem;
   width: 7.5rem;
 }
 .container .focus {

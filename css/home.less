@@ -404,6 +404,7 @@
         width: 6.85rem;
         margin: .8rem .14rem 0;
         display: inline-block;
+        transition: ease 0.36s;
         .img {
           width: 6.90rem;
           height: 2.30rem;
@@ -436,18 +437,19 @@
           font-size: .16rem;
           overflow: hidden;
           line-height: .40rem;
-          transition: linear 1s;
           color: rgba(55, 55, 55, 0.4);
           text-overflow: ellipsis;
+          transition: ease 0.36s;
         }
         .time {
           height: 1.00rem;
           font-size: .18rem;
           font-weight: bold;
           line-height: 1.00rem;
-          transition: linear 200ms;
+          transition: ease 0.36s;
           color: rgba(0, 0, 0, 0.6);
           border-top: 1px solid #ccc;
+
 
           &:after {
             content: " ";
@@ -460,7 +462,7 @@
             border-top: 2px solid #57bc4c;
             border-right: 2px solid #57bc4c;
             transform: rotate(45deg);
-            transition: linear 200ms;
+            transition: ease 360ms;
           }
         }
         &:hover {
@@ -478,6 +480,7 @@
             img{
               width: 7.50rem;
               margin-left: -3.75rem;
+              margin-top: -1.3rem;
             }
           }
         }
