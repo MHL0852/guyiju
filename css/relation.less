@@ -1,14 +1,14 @@
 @import "./header.less";
 
-.container{
+.container {
   width: 14.4rem;
-  margin:0 auto .80rem;
-  .banner{
+  margin: 0 auto 1.80rem;
+  .banner {
     margin-top: .20rem;
     position: relative;
     width: 100%;
     height: 5.00rem;
-    img{
+    img {
       width: 19.20rem;
       height: 5.00rem;
       margin: 0 0 0 -2.40rem;
@@ -31,39 +31,40 @@
       }
     }
   }
-  .describe{
+  .describe {
     width: 14.40rem;
-    .content{
+    .content {
       overflow: hidden;
       margin-bottom: .50rem;
-      .company{
+      .company {
         display: inline-block;
-        h3{
+        h3 {
           margin-top: 0;
           margin-bottom: .50rem;
           font-size: .24rem;
           color: #555;
           opacity: 0.8;
         }
-        ul{
-          li{
+        ul {
+          li {
             font-size: .18rem;
-            color: rgba(0,0,0,0.6);
+            color: rgba(0, 0, 0, 0.6);
             line-height: .50rem;
           }
         }
       }
-      .form{
+      .form {
         display: inline-block;
         margin-right: .10rem;
         float: right;
-        ul{
+        ul {
           width: 8.00rem;
-          li{
+
+          li {
             width: 100%;
             height: .60rem;
             margin-bottom: .20rem;
-            border: 1px solid rgba(55,55,55,0.2);
+            border: 1px solid rgba(55, 55, 55, 0.2);
             input {
               width: 100%;
               height: 100%;
@@ -83,25 +84,64 @@
                 color: #ccc;
               }
             }
-            &:last-child{
-              color:#fff;
+            &:last-child {
+              color: #fff;
               font-size: .20rem;
               line-height: .60rem;
               text-align: center;
               background: #57bc4c;
               border: 1px solid #57bc4c;
             }
-            &:nth-child(4){
+            &:nth-child(4) {
               height: 1.45rem;
             }
           }
         }
       }
     }
-    .map{
+    #map {
+      width: 14.4rem;
+      height: 6.85rem;
       margin-bottom: .50rem;
-      img{
-        width: 14.4rem;
+
+      .amap-info-contentContainer{
+        position: absolute;
+        opacity: 0.9;
+        left: -15px;
+        top: -250px;
+      }
+
+      .amap-info-content {
+        position: relative;
+        background: #222;
+        color: #fff;
+        width: 4.65rem;
+        height: 2.35rem;
+        font-size: .18rem;
+        overflow: hidden;
+        .guyiju {
+          width: 100%;
+          height: 100%;
+
+          li {
+            text-indent: .3rem;
+            height: .40rem;
+            line-height: .40rem;
+            margin-bottom: 0;
+          }
+
+          .info_title {
+            margin: .20rem 0;
+            font-size: .24rem;
+          }
+        }
+      }
+      .amap-info-sharp {
+        width: .30rem;
+        height: .14rem;
+        background: url("../image/map_openInfo.png") no-repeat;
+        background-size: contain;
+        opacity: 0.8;
       }
     }
   }

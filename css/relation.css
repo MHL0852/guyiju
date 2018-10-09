@@ -144,7 +144,7 @@ body {
 }
 .container {
   width: 14.4rem;
-  margin: 0 auto .80rem;
+  margin: 0 auto 1.80rem;
 }
 .container .banner {
   margin-top: .20rem;
@@ -244,10 +244,45 @@ body {
 .container .describe .content .form ul li:nth-child(4) {
   height: 1.45rem;
 }
-.container .describe .map {
+.container .describe #map {
+  width: 14.4rem;
+  height: 6.85rem;
   margin-bottom: .50rem;
 }
-.container .describe .map img {
-  width: 14.4rem;
+.container .describe #map .amap-info-contentContainer {
+  position: absolute;
+  opacity: 0.9;
+  left: -15px;
+  top: -250px;
+}
+.container .describe #map .amap-info-content {
+  position: relative;
+  background: #222;
+  color: #fff;
+  width: 4.65rem;
+  height: 2.35rem;
+  font-size: .18rem;
+  overflow: hidden;
+}
+.container .describe #map .amap-info-content .guyiju {
+  width: 100%;
+  height: 100%;
+}
+.container .describe #map .amap-info-content .guyiju li {
+  text-indent: .3rem;
+  height: .40rem;
+  line-height: .40rem;
+  margin-bottom: 0;
+}
+.container .describe #map .amap-info-content .guyiju .info_title {
+  margin: .20rem 0;
+  font-size: .24rem;
+}
+.container .describe #map .amap-info-sharp {
+  width: .30rem;
+  height: .14rem;
+  background: url("../image/map_openInfo.png") no-repeat;
+  background-size: contain;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=relation.css.map */

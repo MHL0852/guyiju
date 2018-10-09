@@ -3,11 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>固宜居</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
   <link rel="stylesheet" href="./css/relation.css">
+  <script src="Date/Data.js"></script>
   <script src="es5/jquery-1.11.3.min.js"></script>
   <script src="es5/animate.min.js"></script>
   <script src="es5/utils.min.js"></script>
   <script src="es5/header.js"></script>
+
+  <script type="text/javascript"
+          src="https://webapi.amap.com/maps?v=1.4.10&key=f8d71338cf96d93223a615993a7ff901"></script>
 </head>
 <body>
 <div class="main">
@@ -90,12 +96,13 @@
         </div>
 
       </div>
-      <div class="map">
-        <img src="./image/concat_map.png" alt="">
+      <div id="map">
+
       </div>
     </div>
   </div>
 </div>
 
+<script src="es5/relation.js"></script>
 </body>
 </html>

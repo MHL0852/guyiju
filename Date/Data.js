@@ -729,3 +729,17 @@ var detailData2 = {
   },
   
 };
+
+
+var relationData = {
+  map: {
+    title:'固宜居建材有限公司',
+    address:'地址：江苏省无锡市惠山区钱桥',
+    phone:'电话：0510-8555968',
+    postcode:'邮编：100000',
+    
+    mapCenter:[112.911557, 28.208413],
+    
+    mapLnglats:[112.890254,28.209637],
+  }
+}
