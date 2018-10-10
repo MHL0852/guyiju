@@ -42,7 +42,48 @@ var productData = [
       text: '固宜居生态真瓷美缝'
     },
   ],
-
+  [
+    {
+      link: './product_detail/detail.html',
+      url: "./image/product1.png",
+      text: '固宜居生态真瓷美缝'
+    },
+    {
+      link: './product_detail/detail2.html',
+      url: "./image/product2.png",
+      text: '固宜居生态真瓷美缝'
+    },
+    {
+      link: './product_detail/detail.html',
+      url: "./image/product1.png",
+      text: '固宜居生态真瓷美缝'
+    },
+    {
+      link: './product_detail/detail.html',
+      url: "./image/product1.png",
+      text: '固宜居生态真瓷美缝'
+    },
+    {
+      link: './product_detail/detail2.html',
+      url: "./image/product2.png",
+      text: '固宜居生态真瓷美缝'
+    },
+    {
+      link: './product_detail/detail.html',
+      url: "./image/product1.png",
+      text: '固宜居生态真瓷美缝'
+    },
+    {
+      link: './product_detail/detail2.html',
+      url: "./image/product2.png",
+      text: '固宜居生态真瓷美缝'
+    },
+    {
+      link: './product_detail/detail.html',
+      url: "./image/product1.png",
+      text: '固宜居生态真瓷美缝'
+    },
+  ],
 ];
 //首页
 var homeData = {
@@ -70,21 +111,24 @@ var homeData = {
     "content": [
       {
         "url": "./image/product1.png",
+        "href":"./product_detail/detail.html",
         "describe": "固宜居生态水瓷美缝1"
       },
       {
         "url": "./image/product2.png",
+        "href":"./product_detail/detail2.html",
         "describe": "固宜居生态水瓷美缝2"
       },
       {
         "url": "./image/product1.png",
+        "href":"./product_detail/detail.html",
         "describe": "固宜居生态水瓷美缝3"
       }
     ]
   },
   "part2": {
     "title": "品牌故事",
-    "titleUrl": "./image/home_icon1.png",
+    "titleUrl": "./image/home_icon2.png",
     "subTitle": {
       "normal": "固宜居美缝剂，\"安全环保，为健康而生\"",
       "bold": ""
@@ -492,14 +536,17 @@ var detailData1 = {
     subTitle: 'Other products recommended',
     content: [
       {
+        href:'./detail2.html',
         url: '../image/product1.png',
         text: '固宜居水钻瓷有优'
       },
       {
+        href:'./detail2.html',
         url: '../image/product2.png',
         text: '固宜居水钻瓷有优2'
       },
       {
+        href:'./detail2.html',
         url: '../image/detail_part6.png',
         text: '固宜居水钻瓷有优3'
       },
@@ -611,14 +658,17 @@ var detailData2 = {
     subTitle: 'Other products recommended',
     content: [
       {
+        href:'./detail.html',
         url: '../image/product1.png',
         text: '固宜居水钻瓷有优'
       },
       {
+        href:'./detail.html',
         url: '../image/product2.png',
         text: '固宜居水钻瓷有优2'
       },
       {
+        href:'./detail.html',
         url: '../image/detail_part6.png',
         text: '固宜居水钻瓷有优3'
       },

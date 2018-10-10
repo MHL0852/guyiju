@@ -243,16 +243,17 @@
       ul {
         li {
           width: 4.60rem;
-          height: 5.70rem;
           display: inline-block;
           margin-right: .25rem;
+          transition:background-color ease .36s;
           &:nth-child(3) {
             margin-right: 0;
           }
 
           .img {
-            width: 100%;
-            height: 4.70rem;
+            width: 4.56rem;
+            height: 4.68rem;
+            margin: .02rem .02rem 0;
             text-align: center;
             background: #f0f1f4;
             img {
@@ -268,7 +269,15 @@
             color: rgba(0, 0, 0, 0.8);
             margin: .20rem 0;
             height: 1.0rem;
+            transition:all ease .36s;
             line-height: 1.0rem;
+          }
+          &:hover {
+            color: #fff;
+            background: #57bc4c;
+            .text {
+              color: #fff !important;
+            }
           }
         }
       }

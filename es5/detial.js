@@ -72,7 +72,7 @@
     part.children('.subtitle')[0].innerHTML = data.subTitle;
 
     data.content.forEach(function (item) {
-      str += '  <li class="productCell">\n            <div class="img">\n              <div class="imgCon">\n                <img src="' + item.url + '" alt="">\n              </div>\n            </div>\n            <div class="describe">\n              <span>' + item.text + '</span>\n            </div>\n          </li>';
+      str += '  <li class="productCell">\n\n            <div class="img">\n              <div class="imgCon">\n                <img src="' + item.url + '" alt="">\n              </div>\n            </div>\n            <div class="describe">\n              <span>' + item.text + '</span>\n            </div>\n\n          </li>';
     });
 
     part.children('.container').find('ul')[0].innerHTML = str;
@@ -88,7 +88,7 @@
     part.children('.subtitle')[0].innerHTML = data.subTitle;
 
     data.content.forEach(function (item) {
-      str += '<li>\n            <div class="img">\n              <img src="' + item.url + '" alt="">\n            </div>\n            <p class="text">' + item.text + '</p>\n          </li>';
+      str += '<li>\n          <a href="' + item.href + '">\n            <div class="img">\n              <img src="' + item.url + '" alt="">\n            </div>\n            <p class="text">' + item.text + '</p>\n                        </a>\n          </li>';
     });
 
     part.children('.container').find('ul')[0].innerHTML = str;

@@ -148,12 +148,7 @@
         display: inline-block;
         position: relative;
         opacity: 0;
-        -webkit-transition:background-color linear 500ms;
-        -moz-transition:background-color linear 500ms;
-        -ms-transition:background-color linear 500ms;
-        -o-transition:background-color linear 500ms;
-        transition:background-color linear 500ms;
-        transition-property: background-color,color;
+        transition:background-color ease .36s;
         .img {
           width: 4.46rem;
           height: 4.56rem;
@@ -168,6 +163,7 @@
           height: 1.10rem;
           font-size: .24rem;
           line-height: 1.10rem;
+          transition:all ease .36s;
           color: rgba(0, 0, 0, 0.8);
         }
         &:hover {
