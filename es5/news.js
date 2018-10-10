@@ -7,36 +7,46 @@
 
   //全部按钮与最新按钮切换
   var btns = $('.btn').children('button');
-  var btnShow = 0;
 
-  var _loop = function _loop(i) {
-    var item = btns[i];
-    ~function () {
-      var x = i;
-      item.addEventListener('click', function () {
-        if (x === btnShow) return;
-        item.className += ' active';
-        btns[btnShow].className = btns[btnShow].className.replace(' active', '');
-        btnShow = x;
-      }, false);
-    }();
+  btns[0].addEventListener('click', function () {
+    btns[0].className += ' active';
+    btns[1].className = btns[1].className.replace(' active', '');
+    getFull();
+    animate_news();
+  }, false);
+
+  btns[1].addEventListener('click', function () {
+    btns[1].className += ' active';
+    btns[0].className = btns[0].className.replace(' active', '');
+    getNew();
+    animate_news();
+  }, false);
+
+  var getNew = function getNew() {
+    var news = data[data.length - 1];
+    var item = news[news.length - 1];
+
+    container.innerHTML = '<li class="describe active"> <ul> <li>\n  <a href="' + item.href + '">\n          <div class="img">\n            <img src="' + item.url + '" alt="">\n          </div>\n          <p class="title">' + item.title + '</p>\n          <p class="text">' + item.text + '</p>\n          <p class="time">' + item.date + '</p>\n          </a>\n        </li></ul></li>';
+    focus.innerHTML = '<li class="part active"><ul>1</ul></li>';
   };
 
-  for (var i = 0; i < btns.length; i++) {
-    _loop(i);
-  }
+  var getFull = function getFull() {
+    container.innerHTML = '';
+    focus.innerHTML = '';
+    for (var i = 0; i < data.length; i++) {
+      var str = '';
+      var teams = data[i];
+      for (var j = 0; j < teams.length; j++) {
+        var item = teams[j];
+        str += '  <li>\n  <a href="' + item.href + '">\n          <div class="img">\n            <img src="' + item.url + '" alt="">\n          </div>\n          <p class="title">' + item.title + '</p>\n          <p class="text">' + item.text + '</p>\n          <p class="time">' + item.date + '</p>\n          </a>\n        </li>';
+      }
 
-  for (var i = 0; i < data.length; i++) {
-    var str = '';
-    var teams = data[i];
-    for (var j = 0; j < teams.length; j++) {
-      var _item = teams[j];
-      str += '  <li>\n          <div class="img">\n            <img src="' + _item.url + '" alt="">\n          </div>\n          <p class="title">' + _item.title + '</p>\n          <p class="text">' + _item.text + '</p>\n          <p class="time">' + _item.date + '</p>\n        </li>';
+      container.innerHTML += '<li class="describe ' + (i === 0 ? 'active' : null) + '"> <ul>' + str + '</ul></li>';
+      focus.innerHTML += '<li class="part ' + (i === 0 ? 'active' : null) + '"><ul>' + (i + 1) + '</ul></li>';
     }
+  };
 
-    container.innerHTML += '<li class="describe ' + (i === 0 ? 'active' : null) + '"> <ul>' + str + '</ul></li>';
-    focus.innerHTML += '<li class="part ' + (i === 0 ? 'active' : null) + '"><ul>' + (i + 1) + '</ul></li>';
-  }
+  getFull();
   $('.focus')[0].addEventListener('click', function (e) {
     var i = e.target.innerHTML;
     i--;
@@ -67,7 +77,7 @@ var animate_news = function animate_news() {
   var newsList = active.find('li');
   [].forEach.call(newsList, function (item) {
     var A = utils.offset(item)['top'];
-    if (win > A && !$(item).hasClass('animated')) {
+    if (win + 200 > A && !$(item).hasClass('animated')) {
       animate({
         curEle: item,
         target: { top: 0, opacity: 1 },

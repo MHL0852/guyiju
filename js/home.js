@@ -93,12 +93,14 @@
     for (let i = 0; i < proData.length; i++) {
       var item = proData[i];
       str+=` <li class="productCell">
+ <a href="${item.href}">
             <div class="img">
               <img src="${item.url}" alt="">
             </div>
             <p class="title">${item.title}</p>
             <p class="text">${item.text}</p>
             <p class="time">${item.date}</p>
+            </a>
           </li>`
     }
     

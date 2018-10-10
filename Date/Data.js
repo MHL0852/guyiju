@@ -2,162 +2,47 @@
 var productData = [
   [
     {
-      link: './detail.html',
+      link: './product_detail/detail.html',
       url: "./image/product1.png",
       text: '固宜居生态真瓷美缝'
     },
     {
-      link: './detail2.html',
+      link: './product_detail/detail2.html',
       url: "./image/product2.png",
       text: '固宜居生态真瓷美缝'
     },
     {
-      link: './detail.html',
+      link: './product_detail/detail.html',
       url: "./image/product1.png",
       text: '固宜居生态真瓷美缝'
     },
     {
-      link: './detail.html',
+      link: './product_detail/detail.html',
       url: "./image/product1.png",
       text: '固宜居生态真瓷美缝'
     },
     {
-      link: './detail2.html',
+      link: './product_detail/detail2.html',
       url: "./image/product2.png",
       text: '固宜居生态真瓷美缝'
     },
     {
-      link: './detail.html',
+      link: './product_detail/detail.html',
       url: "./image/product1.png",
       text: '固宜居生态真瓷美缝'
     },
     {
-      link: './detail2.html',
+      link: './product_detail/detail2.html',
       url: "./image/product2.png",
       text: '固宜居生态真瓷美缝'
     },
     {
-      link: './detail.html',
+      link: './product_detail/detail.html',
       url: "./image/product1.png",
       text: '固宜居生态真瓷美缝'
     },
   ],
-  [
-    {
-      link: './detail2.html',
-      url: "./image/product2.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detai2.html',
-      url: "./image/product2.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detai2.html',
-      url: "./image/product2.png",
-      text: '固宜居生态真瓷美缝'
-    },
-  ],
-  [
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-  ],
-  [
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-    {
-      link: './detail.html',
-      url: "./image/product1.png",
-      text: '固宜居生态真瓷美缝'
-    },
-  ],
+
 ];
 //首页
 var homeData = {
@@ -250,12 +135,14 @@ var homeData = {
     "content": [
       {
         "url": "./image/news1.png",
+        "href":'./news_detail/1.html',
         "title": "固宜居美缝\"百日惠战\"启东会议，隆重召开！",
         "text": "惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理",
         "date": "12-08"
       },
       {
         "url": "./image/news2.png",
+        "href":'./news_detail/1.html',
         "title": "固宜居美缝\"百日惠战\"启东会议，隆重召开了！",
         "text": "惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理",
         "date": "11-29"
@@ -296,55 +183,55 @@ var teamData = {
     [
       {
         url: './image/team1.png',
+        href:'./team_detail/1.html',
         title: '图片仅供参考固宜居美缝团队0',
         text: '美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 ......',
-        link: ''
       },
       {
         url: './image/team2.png',
+        href:'./team_detail/1.html',
         title: '图片仅供参考固宜居美缝团队',
         text: '美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 ......',
-        link: ''
       },
       {
         url: './image/team3.png',
+        href:'./team_detail/1.html',
         title: '图片仅供参考固宜居美缝团队',
         text: '美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 ......',
-        link: ''
       },
     ],
     [
       {
         url: './image/team1.png',
+        href:'./team_detail/1.html',
         title: '图片仅供参考固宜居美缝团队1',
         text: '美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 ......',
-        link: ''
       },
       {
         url: './image/team2.png',
+        href:'./team_detail/1.html',
         title: '图片仅供参考固宜居美缝团队',
         text: '美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 ......',
-        link: ''
       },
     ],
     [
       {
         url: './image/team3.png',
+        href:'./team_detail/1.html',
         title: '图片仅供参考固宜居美缝团队2',
         text: '美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 ......',
-        link: ''
       },
       {
         url: './image/team2.png',
+        href:'./team_detail/1.html',
         title: '图片仅供参考固宜居美缝团队',
         text: '美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 ......',
-        link: ''
       },
       {
         url: './image/team1.png',
+        href:'./team_detail/1.html',
         title: '图片仅供参考固宜居美缝团队',
         text: '美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 美缝团队的整体简介 ......',
-        link: ''
       },
     ]
   ]
@@ -422,10 +309,10 @@ var serviceData = {
         time: '11:36',
       },
       {
-        question: '1、我家的是无缝砖，那么还需要留缝吗？大概留多宽？',
+        question: '10、我家的是无缝砖，那么还需要留缝吗？大概留多宽？',
         answer: '答：无缝砖也必须要留缝，留1mm的宽度。0.5毫米的深度。',
         date: '12-08',
-        time: '11:36',
+        time: '11:37',
       }
     ]
   ]
@@ -436,24 +323,28 @@ var newsData = {
     [
       {
         url: './image/news1.png',
+        href:'./news_detail/1.html',
         title: '固宜居美缝“百日惠战”启东会议，隆重召开！',
         text: '惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理,惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理',
         date: '12-08',
       },
       {
         url: './image/news2.png',
+        href:'./news_detail/1.html',
         title: '固宜居美缝“百日惠战”启东会议，隆重召开！',
         text: '惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理,惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理',
         date: '12-08',
       },
       {
         url: './image/news3.png',
+        href:'./news_detail/1.html',
         title: '固宜居美缝“百日惠战”启东会议，隆重召开！',
         text: '惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理,惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理',
         date: '12-08',
       },
       {
         url: './image/news4.png',
+        href:'./news_detail/1.html',
         title: '固宜居美缝“百日惠战”启东会议，隆重召开！',
         text: '惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理,惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理',
         date: '12-08',
@@ -462,30 +353,35 @@ var newsData = {
     [
       {
         url: './image/news5.png',
+        href:'./news_detail/1.html',
         title: '固宜居美缝“百日惠战”启东会议，隆重召开！',
         text: '惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理,惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理',
         date: '12-08',
       },
       {
         url: './image/news4.png',
+        href:'./news_detail/1.html',
         title: '固宜居美缝“百日惠战”启东会议，隆重召开！',
         text: '惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理,惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理',
         date: '12-08',
       },
       {
         url: './image/news3.png',
+        href:'./news_detail/1.html',
         title: '固宜居美缝“百日惠战”启东会议，隆重召开！',
         text: '惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理,惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理',
         date: '12-08',
       },
       {
         url: './image/news2.png',
+        href:'./news_detail/1.html',
         title: '固宜居美缝“百日惠战”启东会议，隆重召开！',
         text: '惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理,惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理',
         date: '12-08',
       },
       {
         url: './image/news1.png',
+        href:'./news_detail/1.html',
         title: '固宜居美缝“百日惠战”启东会议，隆重召开！',
         text: '惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理,惠万千家庭，铸铁军劲旅。固宜居美缝“百日惠战”启动会议今天正式开始。偌大的会场内聚集了固宜居美缝10位大区经理和50位区域经理',
         date: '12-08',
@@ -500,19 +396,19 @@ var detailData1 = {
     subTitle: 'Are you still worried about these issues？',
     content: [
       {
-        url: './image/detail/detail_part1_1.png',
+        url: '../image/detail/detail_part1_1.png',
         text: '卫生间受潮发霉，砖缝脏又黑',
       },
       {
-        url: './image/detail/detail_part1_2.png',
+        url: '../image/detail/detail_part1_2.png',
         text: '厨房砖缝被菜汤油渍渗透，严重影响美观',
       },
       {
-        url: './image/detail/detail_part1_3.png',
+        url: '../image/detail/detail_part1_3.png',
         text: '使用劣质美缝产品导致地砖空鼓',
       },
       {
-        url: './image/detail/detail_part1_4.png',
+        url: '../image/detail/detail_part1_4.png',
         text: '瓷砖缝发霉发黑整体档次 直线下降',
       },
     ]
@@ -521,17 +417,18 @@ var detailData1 = {
     title: '固宜居水钻瓷/您身边的美缝专家',
     subTitle: 'The American sewing expert',
     content: {
-      url: './image/detail_part2.png',
+      url: '../image/detail_part2.png',
       text: [
         '文案参考 文案参考 文案参考 固宜居建材有限公司成立于2011年，总部位于湖南长沙，是一家专业从事建筑建材化工领域的现代,文案参考 文案参考 文案参考 固宜居建材有限公司', '文案参考 文案参考 文案参考 固宜居建材有限公司成立于2011年，总部位于湖南长沙，是一家专业从事建筑建材化工领域的现代,文案参考 文案参考 文案参考', '文案参考 文案参考 文案参考 固宜居建材有限公司成立于2011年，总部位于湖南长沙，是一家专业从事建筑建材化工领域的现代,文案参考 文案参考 文案参考 固宜居建材有限公司固宜居建材有限公司'
       ],
-      btn: '我要试试'
+      btn: '我要试试',
+      btn_href:'../team.html'
     }
   },
   part3: {
     title: '固宜居水钻瓷/固宜居水钻瓷特点',
     subTitle: 'porcelain characteristics',
-    url: './image/detail_part3.png',
+    url: '../image/detail_part3.png',
   },
   part4: {
     title: '固宜居水钻瓷/选择我们的理由',
@@ -539,16 +436,16 @@ var detailData1 = {
     describe: '在过去的5年里，固宜居建材产品以其安全、环保、施工便捷等优异特点在业界被广受赞誉。固宜居建材在同行内率先通过ISO9001认证,在过去的5年里，固宜居建材产品以其安全、环保、施工便捷等优异特点在业界被广受赞誉。固宜居建材在同行内率先通过ISO9001认证。',
     content: [
       {
-        url: './image/detail/detail_part4_1.png'
+        url: '../image/detail/detail_part4_1.png'
       },
       {
-        url: './image/detail/detail_part4_2.png'
+        url: '../image/detail/detail_part4_2.png'
       },
       {
-        url: './image/detail/detail_part4_3.png'
+        url: '../image/detail/detail_part4_3.png'
       },
       {
-        url: './image/detail/detail_part4_4.png'
+        url: '../image/detail/detail_part4_4.png'
       },
     ]
   },
@@ -557,35 +454,35 @@ var detailData1 = {
     subTitle: 'Construction case',
     content: [
       {
-        url: './image/detail/detail_part5_1.png',
+        url: '../image/detail/detail_part5_1.png',
         text: '施工前'
       },
       {
-        url: './image/detail/detail_part5_2.png',
+        url: '../image/detail/detail_part5_2.png',
         text: '施工后'
       },
       {
-        url: './image/detail/detail_part5_3.png',
+        url: '../image/detail/detail_part5_3.png',
         text: '施工前'
       },
       {
-        url: './image/detail/detail_part5_4.png',
+        url: '../image/detail/detail_part5_4.png',
         text: '施工后'
       },
       {
-        url: './image/detail/detail_part5_5.png',
+        url: '../image/detail/detail_part5_5.png',
         text: ''
       },
       {
-        url: './image/detail/detail_part5_6.png',
+        url: '../image/detail/detail_part5_6.png',
         text: ''
       },
       {
-        url: './image/detail/detail_part5_7.png',
+        url: '../image/detail/detail_part5_7.png',
         text: ''
       },
       {
-        url: './image/detail/detail_part5_8.png',
+        url: '../image/detail/detail_part5_8.png',
         text: ''
       },
     ]
@@ -595,15 +492,15 @@ var detailData1 = {
     subTitle: 'Other products recommended',
     content: [
       {
-        url: './image/product1.png',
+        url: '../image/product1.png',
         text: '固宜居水钻瓷有优'
       },
       {
-        url: './image/product2.png',
+        url: '../image/product2.png',
         text: '固宜居水钻瓷有优2'
       },
       {
-        url: './image/detail_part6.png',
+        url: '../image/detail_part6.png',
         text: '固宜居水钻瓷有优3'
       },
     
@@ -618,20 +515,20 @@ var detailData2 = {
     subTitle: 'Are you still worried about these issues？',
     content: [
       {
-        url: './image/detail_part1.png',
-        text: '瓷砖缝发霉发黑整体档次 直线下降 ',
+        url: '../image/detail/detail_part1_1.png',
+        text: '卫生间受潮发霉，砖缝脏又黑',
       },
       {
-        url: './image/detail_part1.png',
-        text: '瓷砖缝发霉发黑整体档次 直线下降 ',
+        url: '../image/detail/detail_part1_2.png',
+        text: '厨房砖缝被菜汤油渍渗透，严重影响美观',
       },
       {
-        url: './image/detail_part1.png',
-        text: '瓷砖缝发霉发黑整体档次 直线下降 ',
+        url: '../image/detail/detail_part1_3.png',
+        text: '使用劣质美缝产品导致地砖空鼓',
       },
       {
-        url: './image/detail_part1.png',
-        text: '瓷砖缝发霉发黑整体档次 直线下降 ',
+        url: '../image/detail/detail_part1_4.png',
+        text: '瓷砖缝发霉发黑整体档次 直线下降',
       },
     ]
   },
@@ -639,17 +536,18 @@ var detailData2 = {
     title: '固宜居水钻瓷/您身边的美缝专家',
     subTitle: 'The American sewing expert',
     content: {
-      url: './image/detail_part2.png',
+      url: '../image/detail_part2.png',
       text: [
         '文案参考 文案参考 文案参考 固宜居建材有限公司成立于2011年，总部位于湖南长沙，是一家专业从事建筑建材化工领域的现代,文案参考 文案参考 文案参考 固宜居建材有限公司', '文案参考 文案参考 文案参考 固宜居建材有限公司成立于2011年，总部位于湖南长沙，是一家专业从事建筑建材化工领域的现代,文案参考 文案参考 文案参考', '文案参考 文案参考 文案参考 固宜居建材有限公司成立于2011年，总部位于湖南长沙，是一家专业从事建筑建材化工领域的现代,文案参考 文案参考 文案参考 固宜居建材有限公司固宜居建材有限公司'
       ],
-      btn: '我要试试'
+      btn: '我要试试',
+      btn_href:'../news.html'
     }
   },
   part3: {
     title: '固宜居水钻瓷/固宜居水钻瓷特点',
     subTitle: 'porcelain characteristics',
-    url: './image/detail_part3.png',
+    url: '../image/detail_part3.png',
   },
   part4: {
     title: '固宜居水钻瓷/选择我们的理由',
@@ -657,16 +555,16 @@ var detailData2 = {
     describe: '在过去的5年里，固宜居建材产品以其安全、环保、施工便捷等优异特点在业界被广受赞誉。固宜居建材在同行内率先通过ISO9001认证,在过去的5年里，固宜居建材产品以其安全、环保、施工便捷等优异特点在业界被广受赞誉。固宜居建材在同行内率先通过ISO9001认证。',
     content: [
       {
-        url: './image/detail_part4.png'
+        url: '../image/detail/detail_part4_1.png'
       },
       {
-        url: './image/detail_part4.png'
+        url: '../image/detail/detail_part4_2.png'
       },
       {
-        url: './image/detail_part4.png'
+        url: '../image/detail/detail_part4_3.png'
       },
       {
-        url: './image/detail_part4.png'
+        url: '../image/detail/detail_part4_4.png'
       },
     ]
   },
@@ -675,35 +573,35 @@ var detailData2 = {
     subTitle: 'Construction case',
     content: [
       {
-        url: './image/detail_part5.png',
+        url: '../image/detail/detail_part5_1.png',
         text: '施工前'
       },
       {
-        url: './image/detail_part5.png',
+        url: '../image/detail/detail_part5_2.png',
         text: '施工后'
       },
       {
-        url: './image/detail_part5.png',
+        url: '../image/detail/detail_part5_3.png',
         text: '施工前'
       },
       {
-        url: './image/detail_part5.png',
+        url: '../image/detail/detail_part5_4.png',
         text: '施工后'
       },
       {
-        url: './image/detail_part5.png',
+        url: '../image/detail/detail_part5_5.png',
         text: ''
       },
       {
-        url: './image/detail_part5.png',
+        url: '../image/detail/detail_part5_6.png',
         text: ''
       },
       {
-        url: './image/detail_part5.png',
+        url: '../image/detail/detail_part5_7.png',
         text: ''
       },
       {
-        url: './image/detail_part5.png',
+        url: '../image/detail/detail_part5_8.png',
         text: ''
       },
     ]
@@ -713,15 +611,15 @@ var detailData2 = {
     subTitle: 'Other products recommended',
     content: [
       {
-        url: './image/detail_part6.png',
+        url: '../image/product1.png',
         text: '固宜居水钻瓷有优'
       },
       {
-        url: './image/detail_part6.png',
+        url: '../image/product2.png',
         text: '固宜居水钻瓷有优2'
       },
       {
-        url: './image/detail_part6.png',
+        url: '../image/detail_part6.png',
         text: '固宜居水钻瓷有优3'
       },
     
@@ -730,7 +628,7 @@ var detailData2 = {
   
 };
 
-
+//联系我们
 var relationData = {
   map: {
     title:'固宜居建材有限公司',
@@ -742,4 +640,66 @@ var relationData = {
     
     mapLnglats:[112.890254,28.209637],
   }
-}
+};
+
+// 新闻详情页
+var newsDetail1 = {
+  title:' 所有人都在怀疑的问题，固宜居美缝小编给您一个答案',
+  describe:{
+    describeImg:'../image/news_detail.png',
+    describeText:[
+      '雄鹰搏击长空，你可知道它初生时的孱弱；大河滔滔灌海，         你可知道它孕育于涓涓细流。任何事情的成功都不是一蹴而就的          ，正如固宜居美缝剂能够成长为美缝行业的领跑者一样！',
+      '很小的时候，我们就听过——绝对不要忽视细微事物的威力。因为细微事物的独特定位，我们就绝不能忽视它未来将会拥有的巨大潜力。',
+      '美缝行业的开辟，对于装修行业来说无疑是一件大事。而它的成长，也是自萌芽到茁壮、从细微到磅薄。今天我们就来谈谈，美缝剂的成长之路，谈谈它的成长给我们的启示——'
+    ],
+    imgDescribe:'配图示例-仅供参考'
+  },
+  text:[
+    {title:'01填缝剂', text:[
+      '早期的填缝剂是“砂浆”，由沙子混合石灰膏、黏土等粘结材料，和水制成。它的优点是价格低廉、黏结性好，但容易形成空隙，极容易变脏。',
+        '后来，出现了白色硅酸盐水泥，简称“白水泥”。相信做过装修的人都不会陌生。这种填缝剂极易发霉，隐藏污渍、细菌'
+      ]},
+    {title:'02近年的成熟产品', text:[
+      '经过“填缝”工艺的发展，满满的开始出现了改进型产品——聚合物水泥基填缝剂。是比较好的一种填缝剂，它在成分上加入了防霉剂、聚合物粉末乳胶材料、颜料等，强度高，具备防霉特征，颜色也更丰富。'
+      ]},
+    {title:'03美缝剂', text:[
+      '环氧树脂填缝剂，俗称真瓷胶、美瓷剂等。这一时期，标志着美缝剂产品的初步成型。利用环氧树脂的高防腐特性、高强度、耐磨的特点，搭配固化剂及颜料，对于瓷砖美缝的耐用性能及美观体验，有了质的飞跃。',
+        '文案仅供参考    文案仅供参考    文案仅供参考  文案仅供参考   文案仅供参考   文案仅供参考  文案仅供参考  文案仅供参考    文案仅供参考    文案仅供参考    文案仅供参考    文案仅供参考  文案仅供参考   文案仅供参考   文案仅供参考  文案仅供参考  文案仅供参考    文案仅供参考   文案仅供参考    文案仅供参考    文案仅供参考  文案仅供参考   文案仅供参考   文案仅供参考  文案仅供参考  文案仅供参考    文案仅供参考'
+      ]},
+  ]
+};
+
+
+//团队详情页
+var teamDetail1 = {
+  title:'宁波叶军固宜居美缝团队 ',
+  describe:{
+    describeImg:'../image/team_detail.png',
+    describeText:[
+      {
+        type:'title',
+        text:'★★★★★固宜居五星级美缝顾问'
+      },{
+        type:'subtitle',
+        text:'【美缝热线】：13966280738'
+      },
+      {
+        text:'从事美缝行业多年，有非常资深的美缝施工经验，以专业的服务态度，过硬的美缝施工技术，完善的售后服务得到了广大业主的一致好评。'
+      }
+    ],
+    imgDescribe:'配图示例-仅供参考'
+  },
+  text:[
+    {title:'免费量房、选色；一砖一配色', text:[
+      '固宜居系列产品授权服务团队，给全城业主提供更实惠的服务，免费量房选色，或者是根据您家的瓷砖由固宜居品牌专业美缝顾问推荐一砖一配色服务！给您打造一个更完美的家！'
+      ]},
+    {title:
+      '卓高品牌星级美缝施工团队，服务更有保障', text:[
+      '告别游击队的偷工减料工程，选择固宜居品牌星级施工团队，正式开工之前签订协议，所用产品均是厂家直供，每一位美缝师都是经过系统培训后上岗，有长达5年施工经验，能够完美的做好各种材质类型的瓷砖'
+      ]},
+    {title:'一户一保，售后更有保障！', text:[
+      '选择固宜居品牌产品授权施工团队，签订一户一保协议，更有售后保障！央视网商城优选品牌美缝产品+星级美缝施工团队+中国人保协议！无任何后顾之忧，美缝，就选固宜居！',
+        '文案仅供参考    文案仅供参考    文案仅供参考  文案仅供参考   文案仅供参考   文案仅供参考  文案仅供参考  文案仅供参考    文案仅供参考    文案仅供参考    文案仅供参考    文案仅供参考  文案仅供参考   文案仅供参考   文案仅供参考  文案仅供参考  文案仅供参考    文案仅供参考   文案仅供参考    文案仅供参考    文案仅供参考  文案仅供参考   文案仅供参考   文案仅供参考  文案仅供参考  文案仅供参考    文案仅供参考'
+      ]},
+  ]
+};

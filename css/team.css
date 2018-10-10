@@ -185,12 +185,16 @@ body {
 }
 .container .describe ul {
   margin-bottom: 1.00rem;
+  overflow: hidden;
 }
 .container .describe ul li {
+  top: 3rem;
+  opacity: 0;
   width: 4.50rem;
   margin: 0 .13rem;
+  position: relative;
   display: inline-block;
-  transition: all ease 0.36s;
+  transition: background-color ease 0.36s;
 }
 .container .describe ul li .img {
   width: 4.50rem;

@@ -87,7 +87,7 @@
     var proData = data.content;
     for (var i = 0; i < proData.length; i++) {
       var item = proData[i];
-      str += ' <li class="productCell">\n            <div class="img">\n              <img src="' + item.url + '" alt="">\n            </div>\n            <p class="title">' + item.title + '</p>\n            <p class="text">' + item.text + '</p>\n            <p class="time">' + item.date + '</p>\n          </li>';
+      str += ' <li class="productCell">\n <a href="' + item.href + '">\n            <div class="img">\n              <img src="' + item.url + '" alt="">\n            </div>\n            <p class="title">' + item.title + '</p>\n            <p class="text">' + item.text + '</p>\n            <p class="time">' + item.date + '</p>\n            </a>\n          </li>';
     }
 
     part.children('.content').find('ul')[0].innerHTML = str;

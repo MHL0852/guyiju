@@ -42,11 +42,15 @@
     }
     ul {
       margin-bottom: 1.00rem;
+      overflow: hidden;
       li {
+        top: 3rem;
+        opacity: 0;
         width: 4.50rem;
         margin: 0 .13rem;
+        position: relative;
         display: inline-block;
-        transition: all ease 0.36s;
+        transition: background-color ease 0.36s;
         .img {
           width: 4.50rem;
           height: 4.50rem;
@@ -84,6 +88,7 @@
           text-overflow: ellipsis;
           transition: ease 0.36s;
         }
+
         .examine {
           padding: 0 .30rem;
           margin-bottom: .20rem;

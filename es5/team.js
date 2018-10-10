@@ -9,12 +9,13 @@
     var teams = data[i];
     for (var j = 0; j < teams.length; j++) {
       var item = teams[j];
-      str += '  <li>\n          <div class="img">\n            <img src="' + item.url + '" alt="">\n          </div>\n          <p class="title">' + item.title + '</p>\n          <p class="text">' + item.text + '</p>\n          <p class="examine clear">\n          <a href="' + item.link + '">\n          <button>\u67E5\u770B</button>\n</a>\n</p>\n        </li>';
+      str += '  <li>\n          <div class="img">\n            <img src="' + item.url + '" alt="">\n          </div>\n          <p class="title">' + item.title + '</p>\n          <p class="text">' + item.text + '</p>\n          <p class="examine clear">\n          <a href="' + item.href + '">\n          <button>\u67E5\u770B</button></a></p></li>';
     }
 
     container.innerHTML += '<li class="describe ' + (i === 0 ? 'active' : null) + '"> <ul>' + str + '</ul></li>';
     focus.innerHTML += '<li class="part ' + (i === 0 ? 'active' : null) + '"><ul>' + (i + 1) + '</ul></li>';
   }
+
   $('.focus')[0].addEventListener('click', function (e) {
     var i = e.target.innerHTML;
     i--;
@@ -43,5 +44,31 @@
       }
       x--
     },5)*/
+
+    animate_news();
   });
 })();
+
+//动画
+var animate_news = function animate_news() {
+  var duration = 1500,
+      effect = animateEffect.Circ.easeOut;
+  var win = utils.winBox('clientHeight') + utils.winBox('scrollTop');
+
+  var active = $('.teamList').children('.active');
+  var newsList = active.find('li');
+  [].forEach.call(newsList, function (item) {
+    var A = utils.offset(item)['top'];
+    if (win + 200 > A && !$(item).hasClass('animated')) {
+      animate({
+        curEle: item,
+        target: { top: 0, opacity: 1 },
+        duration: duration,
+        effect: effect
+      });
+      $(item).addClass('animated');
+    }
+  });
+};
+animate_news();
+window.addEventListener('scroll', animate_news, false);

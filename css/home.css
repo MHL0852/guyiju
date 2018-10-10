@@ -203,6 +203,7 @@ body {
 .container {
   margin-top: .80rem;
   font-size: .16rem;
+  overflow: hidden;
 }
 .container .left {
   opacity: 0.2;
@@ -501,7 +502,6 @@ body {
   width: 6.85rem;
   margin: .8rem .14rem 0;
   display: inline-block;
-  transition: ease 0.36s;
 }
 .container .news .content .productCell .img {
   width: 6.90rem;

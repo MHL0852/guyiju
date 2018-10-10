@@ -38,9 +38,9 @@
     data.content.text.forEach(item=>{
       str+=`<p class="text">${item}</p>`
     })
-    str+=`  <p class="more">
+    str+=`  <a href='${data.content.btn_href}'><p class="more">
               ${data.content.btn}
-            </p>`
+            </p></a>`
     part.children('.content').find('.storyText')[0].innerHTML = str
   }()
   

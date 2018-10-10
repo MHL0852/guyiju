@@ -29,7 +29,7 @@
     data.content.text.forEach(function (item) {
       str += '<p class="text">' + item + '</p>';
     });
-    str += '  <p class="more">\n              ' + data.content.btn + '\n            </p>';
+    str += '  <a href=\'' + data.content.btn_href + '\'><p class="more">\n              ' + data.content.btn + '\n            </p></a>';
     part.children('.content').find('.storyText')[0].innerHTML = str;
   }();
 
