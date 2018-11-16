@@ -12,14 +12,7 @@
   
   let text = '';
   newsDetail.text.forEach(item=>{
-    text+=` <li>
-        <h4>
-         ${item.title}
-        </h4>
-        <p>
-        ${item.text.join('</p><p>')}
-        </p>
-      </li>`
+    text+=` `
   })
   
   container.children('.text_part')[0].innerHTML = text;

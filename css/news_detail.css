@@ -165,8 +165,8 @@ body {
 }
 .container .describe .preamble {
   float: left;
-  width: 5.6rem;
-  height: 4rem;
+  width: 14.4rem;
+  /*height: 4rem;*/
   letter-spacing: -1px;
   font-size: .20rem;
   color: #666666;
@@ -176,7 +176,7 @@ body {
 .container .describe .img {
   margin-left: 1.80rem;
   width: 6.80rem;
-  height: 5rem;
+  /*height: 5rem;*/
   float: right;
 }
 .container .describe .img img {
@@ -200,6 +200,8 @@ body {
 }
 .container .text_part p {
   color: #666666;
+  text-indent: 2em;
+  margin: 0.2rem 0;
   line-height: .5rem;
 }
 /*# sourceMappingURL=news_detail.css.map */

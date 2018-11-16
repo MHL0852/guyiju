@@ -165,8 +165,7 @@ body {
 }
 .container .describe .preamble {
   float: left;
-  width: 5.6rem;
-  height: 4rem;
+  width: 14.4rem;
   overflow: hidden;
   letter-spacing: -1px;
   font-size: .20rem;
@@ -189,8 +188,10 @@ body {
   height: .85rem;
   font-size: .24rem;
   font-weight: bold;
+  text-indent: 2em;
   line-height: .85rem;
   text-align: center;
+  margin: 0.2rem 0;
 }
 .container .text_part {
   font-size: .2rem;
@@ -202,6 +203,7 @@ body {
 .container .text_part p {
   color: #666666;
   line-height: .5rem;
+  text-indent: 2em;
 }
 .container .describe .describeTitle {
   text-indent: 0;

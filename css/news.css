@@ -194,14 +194,12 @@ body {
   display: block;
 }
 .container .describe li {
-  position: relative;
-  top: 3rem;
-  opacity: 0;
   width: 6.85rem;
   margin: 0 .14rem;
   display: inline-block;
 }
 .container .describe li .img {
+  display: none;
   width: 6.90rem;
   height: 2.40rem;
   overflow: hidden;
@@ -216,6 +214,7 @@ body {
   width: 6.90rem;
 }
 .container .describe li .title {
+  overflow: hidden;
   height: .30rem;
   margin: .40rem 0;
   font-size: .26rem;
